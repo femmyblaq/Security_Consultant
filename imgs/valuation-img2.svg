@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .cls-1, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-13, .cls-15, .cls-2, .cls-4, .cls-6 {
+        fill: #ebebeb;
+      }
+
+      .cls-2 {
+        filter: url(#filter);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        filter: url(#filter-2);
+      }
+
+      .cls-5, .cls-6 {
+        stroke: #000;
+        stroke-width: 1px;
+        stroke-dasharray: 4 2;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-3);
+        filter: url(#filter-3);
+      }
+
+      .cls-6 {
+        filter: url(#filter-4);
+      }
+
+      .cls-10, .cls-11, .cls-7, .cls-8, .cls-9 {
+        fill: none;
+        stroke-width: 4px;
+        stroke-dasharray: 16 8;
+      }
+
+      .cls-7 {
+        stroke: #6dcff6;
+      }
+
+      .cls-8 {
+        stroke: #fff200;
+      }
+
+      .cls-9 {
+        stroke: #ec008c;
+      }
+
+      .cls-10 {
+        stroke: #7accc8;
+      }
+
+      .cls-11 {
+        stroke: red;
+      }
+
+      .cls-12 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-13 {
+        filter: url(#filter-5);
+      }
+
+      .cls-14 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-15 {
+        filter: url(#filter-6);
+      }
+
+      .cls-16 {
+        font-size: 24.306px;
+        fill: #25215c;
+        font-family: "Bookman Old Style";
+      }
+
+      .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-21 {
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .cls-17, .cls-18, .cls-19, .cls-20, .cls-21 {
+        font-size: 50px;
+        font-family: Arial;
+      }
+
+      .cls-17 {
+        fill: #2bced8;
+      }
+
+      .cls-18 {
+        fill: #ecd34a;
+      }
+
+      .cls-19 {
+        fill: #9d1ab0;
+      }
+
+      .cls-20 {
+        fill: #01b79f;
+      }
+
+      .cls-21 {
+        fill: #f96644;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="278.75" y1="256.706" x2="123.25" y2="301.294" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#24b99f"/>
+      <stop offset="1" stop-color="#8cc7e5"/>
+    </linearGradient>
+    <filter id="filter" x="142.969" y="221.094" width="116.719" height="116.594" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="2.333" in="SourceAlpha"/>
+      <feFlood result="flood" flood-color="#fff" flood-opacity="0.88"/>
+      <feComposite result="composite-2" operator="out" in2="blur"/>
+      <feComposite result="composite" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend" mode="screen" in2="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="551.938" y1="356.255" x2="396.563" y2="400.808" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0838c1"/>
+      <stop offset="0.5" stop-color="#80e5dd"/>
+      <stop offset="1" stop-color="#2199de"/>
+    </linearGradient>
+    <filter id="filter-2" x="416.25" y="320.656" width="116.625" height="116.5" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="2.333" in="SourceAlpha"/>
+      <feFlood result="flood" flood-color="#fff" flood-opacity="0.88"/>
+      <feComposite result="composite-2" operator="out" in2="blur"/>
+      <feComposite result="composite" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend" mode="screen" in2="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="647.5" y1="257.232" x2="491.75" y2="301.893" xlink:href="#linear-gradient-2"/>
+    <filter id="filter-3" x="491.75" y="201.781" width="155.75" height="155.563" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="491.75" y="201.781" width="155.75" height="155.563" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTU1Ljc1IiBoZWlnaHQ9IjE1NS41NjMiIHZpZXdCb3g9IjAgMCAxNTUuNzUgMTU1LjU2MyI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSI3Ny44NzUiIHkxPSIxNTUuNTYzIiB4Mj0iNzcuODc1IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmMjYwMiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuNDg1IiBzdG9wLWNvbG9yPSIjZjdlNWNhIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmMDAzMCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iMTU1Ljc1IiBoZWlnaHQ9IjE1NS41NjMiLz4KPC9zdmc+Cg=="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-4" x="511.531" y="221.563" width="116.844" height="116.781" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="2.333" in="SourceAlpha"/>
+      <feFlood result="flood" flood-color="#fff" flood-opacity="0.88"/>
+      <feComposite result="composite-2" operator="out" in2="blur"/>
+      <feComposite result="composite" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend" mode="screen" in2="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-4" x1="464.25" y1="254.951" x2="308.5" y2="299.612" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b92494"/>
+      <stop offset="1" stop-color="#8cc9e5"/>
+    </linearGradient>
+    <filter id="filter-5" x="327.594" y="218.531" width="116.875" height="116.782" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="2.333" in="SourceAlpha"/>
+      <feFlood result="flood" flood-color="#fff" flood-opacity="0.88"/>
+      <feComposite result="composite-2" operator="out" in2="blur"/>
+      <feComposite result="composite" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend" mode="screen" in2="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-5" x1="212.219" y1="445.875" x2="367.469" y2="290.625" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff6e02"/>
+      <stop offset="0.5" stop-color="#ff0"/>
+      <stop offset="1" stop-color="#ff6d00"/>
+    </linearGradient>
+    <filter id="filter-6" x="231.813" y="310.344" width="116.718" height="116.562" filterUnits="userSpaceOnUse">
+      <feGaussianBlur result="blur" stdDeviation="2.333" in="SourceAlpha"/>
+      <feFlood result="flood" flood-color="#fff" flood-opacity="0.88"/>
+      <feComposite result="composite-2" operator="out" in2="blur"/>
+      <feComposite result="composite" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend" mode="screen" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path class="cls-1" d="M128.549,262.976L197.3,204.89a15,15,0,0,1,21.139,1.777l56.794,67.219a15,15,0,0,1-1.777,21.138L204.705,353.11a15,15,0,0,1-21.139-1.777l-56.794-67.219A15,15,0,0,1,128.549,262.976Z"/>
+  <path id="Rectangle_3_copy" data-name="Rectangle 3 copy" class="cls-2" d="M148.278,264.634l47.359-40.014a15,15,0,0,1,21.138,1.776l39.369,46.6a15,15,0,0,1-1.777,21.139l-47.358,40.014a15,15,0,0,1-21.139-1.777L146.5,285.773A15,15,0,0,1,148.278,264.634Z"/>
+  <path class="cls-3" d="M402.072,361.3l69.7-56.94a15,15,0,0,1,21.106,2.127l55.674,68.15a15,15,0,0,1-2.127,21.106l-69.7,56.939a15,15,0,0,1-21.107-2.126l-55.674-68.15A15,15,0,0,1,402.072,361.3Z"/>
+  <path id="Rectangle_3_copy-2" data-name="Rectangle 3 copy" class="cls-4" d="M421.771,363.286l48.015-39.224a15,15,0,0,1,21.106,2.126l38.592,47.24a15,15,0,0,1-2.126,21.107L479.343,433.76a15,15,0,0,1-21.106-2.127l-38.592-47.24A15,15,0,0,1,421.771,363.286Z"/>
+  <g style="fill: url(#linear-gradient-3); filter: url(#filter-3)">
+    <path id="Rectangle_3_copy_2" data-name="Rectangle 3 copy 2" class="cls-5" d="M496.805,265.292l67.326-59.726a15,15,0,0,1,21.175,1.266l58.4,65.83a15,15,0,0,1-1.266,21.175l-67.326,59.727a15,15,0,0,1-21.175-1.267l-58.4-65.829A15,15,0,0,1,496.805,265.292Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#Rectangle_3_copy_2" style="stroke: #000; filter: none; fill: none"/>
+  <g style="fill: #ebebeb; filter: url(#filter-4)">
+    <path id="Rectangle_3_copy_2-2" data-name="Rectangle 3 copy 2" class="cls-6" d="M516.569,266.474l46.38-41.145a15,15,0,0,1,21.175,1.267l40.481,45.632a15,15,0,0,1-1.266,21.175l-46.38,41.145a15,15,0,0,1-21.175-1.267L515.3,287.65A15,15,0,0,1,516.569,266.474Z" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#Rectangle_3_copy_2-2" style="stroke: #000; filter: none; fill: none"/>
+  <path class="cls-7" d="M209,64V201"/>
+  <path class="cls-8" d="M295,293l-2-173"/>
+  <path class="cls-9" d="M383,356l-1,165"/>
+  <path class="cls-10" d="M483,301L482,85"/>
+  <path class="cls-11" d="M564,357l-1,187"/>
+  <path class="cls-12" d="M313.558,262.984l67.353-59.7a15,15,0,0,1,21.175,1.277l58.368,65.857a15,15,0,0,1-1.276,21.174l-67.354,59.695a15,15,0,0,1-21.174-1.276l-58.369-65.857A15,15,0,0,1,313.558,262.984Z"/>
+  <path id="Rectangle_3_copy-3" data-name="Rectangle 3 copy" class="cls-13" d="M332.657,263.427l46.4-41.124a15,15,0,0,1,21.175,1.277l40.46,45.65a15,15,0,0,1-1.276,21.175l-46.4,41.123a15,15,0,0,1-21.175-1.276L331.381,284.6A15,15,0,0,1,332.657,263.427Z"/>
+  <path class="cls-14" d="M217.492,351.781l69.092-57.674a15,15,0,0,1,21.127,1.9L364.1,363.566a15,15,0,0,1-1.9,21.128l-69.092,57.674a15,15,0,0,1-21.128-1.9l-56.392-67.556A15,15,0,0,1,217.492,351.781Z"/>
+  <path id="Rectangle_3_copy-4" data-name="Rectangle 3 copy" class="cls-15" d="M237.211,353.557l47.6-39.731a15,15,0,0,1,21.127,1.9l39.091,46.829a15,15,0,0,1-1.9,21.127l-47.6,39.732a15,15,0,0,1-21.128-1.9l-39.09-46.829A15,15,0,0,1,237.211,353.557Z"/>
+  <text id="EXECELLENCE" class="cls-16" x="118.502" y="56.25">EXECELLENCE</text>
+  <text id="_1" data-name="1" class="cls-17" x="188.193" y="296.25">1</text>
+  <text id="_2" data-name="2" class="cls-18" x="276.68" y="386.25">2</text>
+  <text id="_3" data-name="3" class="cls-19" x="371.666" y="295.75">3</text>
+  <text id="_4" data-name="4" class="cls-20" x="461.202" y="395.25">4</text>
+  <text id="_5" data-name="5" class="cls-21" x="557.658" y="298.25">5</text>
+  <text id="AMBITION" class="cls-16" x="234.908" y="105.75">AMBITION</text>
+  <text id="COURAGE" class="cls-16" x="426.241" y="85.75">COURAGE</text>
+  <text id="INCLUSION" class="cls-16" x="311.346" y="537.25">INCLUSION</text>
+  <text id="INNOVATION" class="cls-16" x="490.205" y="559.75">INNOVATION</text>
+</svg>

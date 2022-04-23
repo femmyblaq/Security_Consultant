@@ -23,7 +23,7 @@
         box-sizing: border-box;
     }
 
-    #security_consulting .security_heros {
+    #education_training .security_heros {
         height: 50vh;
         width: 90%;
         /* margin: auto 1.5rem; */
@@ -32,25 +32,216 @@
         background-image: linear-gradient(to right, rgba(123, 55, 243), rgba(0, 0, 0, 0.7));
     }
 
-    #security_consulting .security_heros h1 {
+    #education_training .security_heros h1 {
         font-size: 3rem;
         font-weight: 800;
     }
 
-    #security_consulting_content .other_consultancies .hr {
-        height: 30px;
-        width: 98%;
-        border-top-right-radius: 200px;
-        border-bottom-right-radius: 200px;
-        background-image: linear-gradient(to right, rgba(123, 55, 243), rgba(0, 0, 0, 0.7));
+    #education_logo .card {
+        flex-direction: row !important;
+        margin: 5rem auto !important;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 700px;
+    }
+
+    @media (min-width: 215px) and (max-width: 314px) {
+        #education_training .security_heros {
+            width: 100% !important;
+        }
+
+        #education_training .security_heros h1 {
+            font-size: 1rem !important;
+            font-weight: 800;
+        }
+
+        #education_training .security_heros p {
+            font-size: 14px !important;
+            width: 100% !important;
+        }
+
+        #education_training_content {
+            margin: 30px 10px !important;
+        }
+
+        #education_training_content .row {
+            margin: 20px 0 !important;
+        }
+
+        #education_logo .card {
+            flex-direction: column !important;
+            margin: 2.5rem auto !important;
+            padding: 10px !important;
+            left: 0% !important;
+            transform: translateX(0%) !important;
+            width: 100% !important;
+        }
+
+        #education_logo .edu_logo img {
+            width: 200px !important;
+        }
+
+        #education_logo .card p {
+            font-size: 1rem !important;
+        }
+
+        #education_training_content img {
+            width: 100% !important;
+            height: 100% !important;
+            padding: 3px;
+        }
+    }
+
+    @media (min-width: 315px) and (max-width: 480px) {
+        #education_training .security_heros {
+            width: 100%;
+        }
+
+        #education_training .security_heros h1 {
+            font-size: 1.5rem !important;
+            font-weight: 800;
+        }
+
+        #education_training .security_heros p {
+            font-size: 16px !important;
+            width: 100% !important;
+        }
+
+        #education_training_content {
+            margin: 30px 10px !important;
+        }
+
+        #education_training_content .row {
+            margin: 20px 0 !important;
+        }
+
+        #education_logo .card {
+            flex-direction: column !important;
+            margin: 2.5rem auto !important;
+            left: 4% !important;
+            transform: translateX(0%) !important;
+            width: 90% !important;
+        }
+
+        #education_logo .edu_logo img {
+            width: 250px !important;
+        }
+
+        #education_logo .card p {
+            font-size: 1rem !important;
+        }
+
+        #education_training_content .images img {
+            width: 150px !important;
+            height: 100px !important;
+            padding: 3px;
+        }
+    }
+
+    @media (min-width: 481px) and (max-width: 780px) {
+        #education_training .security_heros {
+            width: 100%;
+        }
+
+        #education_training .security_heros h1 {
+            font-size: 1.5rem !important;
+            font-weight: 800;
+        }
+
+        #education_training .security_heros p {
+            font-size: 16px !important;
+            width: 100% !important;
+        }
+
+        #education_training_content {
+            margin: 30px 10px !important;
+        }
+
+        #education_training_content .row {
+            margin: 20px 0 !important;
+        }
+
+        #education_logo .card {
+            flex-direction: column !important;
+            margin: 2.5rem auto !important;
+            left: 4% !important;
+            transform: translateX(0%) !important;
+            width: 90% !important;
+        }
+
+        #education_logo .edu_logo img {
+            width: 250px !important;
+        }
+
+        #education_logo .card p {
+            font-size: 1rem !important;
+        }
+
+        #education_training_content .images img {
+            width: 150px !important;
+            height: 100px !important;
+            padding: 3px;
+        }
     }
 </style>
 
 <body>
-    <div id="security_consulting">
+    <div id="header">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light px-lg-4 py-lg-3">
+
+            <div class="nav-brand">
+                <a href="" class="fs-2 fw-bolder text-decoration-none"><img src="../imgs/Seccon_logo_web.png"
+                        style="width: 130px;" alt=""> </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto d-flex justify-content-center align-items-center mb-lg-0">
+                    <li class=" nav-link"><a href="Home.html" class="link text-decoration-none text-dark">Home</a></li>
+                    <li class=" nav-link position-relative  "><a href=""
+                            class="text-dark link text-decoration-none">Services</a><i
+                            class="fa-solid fa-angle-down ms-4"></i>
+                        <div class="services-content  position-absolute">
+                            <ul class="p-2 bg-info d-none m-0 list-unstyled ">
+                                <li class="mt-2">
+                                    <a class="text-dark text-decoration-none m-0"
+                                        href="security_consulting.html">Security
+                                        Consulting</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="text-dark text-decoration-none m-0" href="B">Business Consulting</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="text-dark text-decoration-none m-0"
+                                        href="Education_Training.html">Education &
+                                        Training</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="text-dark text-decoration-none m-0"
+                                        href="Information_Service.html">Information
+                                        Service</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="text-dark text-decoration-none m-0" href="">Entreprenuership</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class=" nav-link"><a href="" class="link text-decoration-none text-dark">About Us</a></li>
+                    <li class=" nav-link"><a href="" class="link text-decoration-none text-dark">Contact</a></li>
+                    <li class=" nav-link"><button class="btn btn-dark rounded-0 btn-lg">GET IN TOUCH</button></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div id="education_training">
         <div class="security_heros d-flex justify-content-center align-items-center">
             <div class="px-4">
-                <h1 class="text-white">Education & Training CONSULTING</h1>
+                <h1 class="text-white text-capitalize">Education & Training CONSULTING</h1>
                 <p class="text-white w-75 fs-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non soluta
                     porro
                     quia
@@ -59,19 +250,25 @@
                     Suscipit repellat corrupti non?</p>
             </div>
         </div>
-        <div id="education_logo">
-            <div class="card">
-                <div class="card-body">
-                    <p>
-                        All courses are developed and reviewed annually by subject matter experts, to meet current skill
-                        gap. Also, the courses are accredited by globally recognised academic and professional
-                        institutions, and delivered by verified instructors.
-                    </p>
+        <div id="education_logo" class="row m-0">
+            <div class="col-12 mx-auto">
+                <div class="card shadow p-lg-4 d-inline-flex">
+                    <div class="edu_logo text-center">
+                        <img class="" src="../imgs/Education_logo.png" alt="">
+                    </div>
+                    <div class="card-body">
+                        <p style="font-size: 20px;">
+                            All courses are developed and reviewed annually by subject matter experts, to meet current
+                            skill
+                            gap. Also, the courses are accredited by globally recognised academic and professional
+                            institutions, and delivered by verified instructors.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div id="security_consulting_content">
-            <div class="row my-5 mx-4 p-0">
+        <div id="education_training_content">
+            <div class="row my-3 mx-4 p-0">
                 <div class="col-lg-6">
                     <h1 class="text-lead fw-light">What does <br><span class="fw-bolder">Education & Training
                             <br></span>do?</h1>
@@ -82,48 +279,94 @@
                         give you the desired learning experience and value for your money. For your convenience, we
                         conduct on-site executive class room trainings, in-house trainings, correspondence, virtual
                         learning, e.t.c.</p>
+                    <h5>Typical duties include:</h5>
+                    <ul>
+                        <li>Serve as an advisor for teachers, parents, school administrators, school boards, and
+                            government officials</li>
+                        <li>Assess education standards and classroom policies, as well as grades and test scores</li>
+                        <li>Help implement changes to curriculum based on data</li>
+                        <li>Survey students to change programs or curriculum</li>
+                        <li>Report on the effectiveness of current academic systems</li>
+                        <li>Devise strategies to improve educational quality and help implement new policies</li>
+                        <li>Design new training programs and offer teacher training workshops</li>
+                        <li>Recommend different educational materials</li>
+                        <li>Implement and guide usage of new technologies</li>
+                        <li>Assist in correlating systems to improve student drop-out rates</li>
+                        <li>Advise academic intervention programs</li>
+                        <li>Supervise online education</li>
+                        <li>Guide college selection and application</li>
+                        <li>Match students to appropriate learning environments, such as special education programs</li>
+                        <li>Meet with administrators and teachers to discuss programs and budgets</li>
+                    </ul>
                 </div>
                 <div class="col-lg-6">
                     <div class="shape">
-
                     </div>
-                    <img src="" alt="">
+                    <img src="../imgs/EducationConsultancy2.png" alt="">
                 </div>
             </div>
-            <div class="competency">
-                <h1>Competency Training/Certificate</h1>
-                <table class="table table-striped table-hover">
+            <div class="competency my-5">
+                <h1 class="text-center">Competency Training</h1>
+                <table class="table w-75 d-none mx-auto table-striped table-hover">
                     <thead>
                         <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
-                            <th scope="col">Handle</th>
+                            <th scope="col">Code</th>
+                            <th scope="col">Course Name</th>
+                            <th scope="col">Duration</th>
+                            <th scope="col">Start Date</th>
+                            <th scope="col">End Date</th>
+                            <th scope="col">Price</th>
+
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">1</th>
+                            <th scope="row">GSEL01</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
                             <td>Mark</td>
                             <td>Otto</td>
                             <td>@mdo</td>
                         </tr>
                         <tr>
-                            <th scope="row">2</th>
+                            <th scope="row">CSM02</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
                             <td>Jacob</td>
                             <td>Thornton</td>
                             <td>@fat</td>
                         </tr>
                         <tr>
-                            <th scope="row">3</th>
-                            <td colspan="2">Larry the Bird</td>
+                            <th scope="row">BCCC03</th>
+                            <td>Larry the Bird</td>
+                            <td>@twitter</td>
+                            <td>Larry the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">CTPS02</th>
+                            <td>Larry the Bird</td>
+                            <td>@twitter</td>
+                            <td>Larry the Bird</td>
                             <td>@twitter</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
+            <div class="row  my-5 p-0 mx-0 ">
+                <div class="col-lg-6 p-0 justify-content-center align-items-center d-flex">
+                    <img class="w-75" src="../imgs/Cert_Edu.png" alt="">
+                </div>
+                <div class="col-lg-6 p-0 justify-content-center align-items-center d-flex">
+                    <img class="w-75" src="../imgs/Cert_Edu.png" alt="">
+                </div>
+            </div>
         </div>
     </div>
+    <script src="../javascript//bootstrap.min.js"></script>
+    <script src="../javascript/index.js"></script>
 </body>
 
 </html>

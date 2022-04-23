@@ -20,8 +20,8 @@
 
 <body>
   <div class="container-fluid p-0">
-    <div id="header">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light px-lg-4 py-lg-3">
+    <div id="header" class="sticky-top">
+      <nav class="navbar  navbar-expand-lg navbar-light bg-light px-lg-4 py-lg-3">
 
         <div class="nav-brand">
           <a href="" class="fs-2 fw-bolder text-decoration-none"><img src="../imgs/Seccon_logo_web.png"
@@ -33,22 +33,25 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto d-flex justify-content-center align-items-center mb-lg-0">
-            <li class=" nav-link"><a href="" class="link text-decoration-none text-dark">Home</a></li>
+            <li class=" nav-link"><a href="Home.html" class="link text-decoration-none text-dark">Home</a></li>
             <li class=" nav-link position-relative  "><a href=""
                 class="text-dark link text-decoration-none">Services</a><i class="fa-solid fa-angle-down ms-4"></i>
               <div class="services-content  position-absolute">
                 <ul class="p-2 bg-info d-none m-0 list-unstyled ">
                   <li class="mt-2">
-                    <a class="text-dark text-decoration-none m-0" href="">Security Consulting</a>
+                    <a class="text-dark text-decoration-none m-0" href="security_consulting.html">Security
+                      Consulting</a>
                   </li>
                   <li class="mt-2">
-                    <a class="text-dark text-decoration-none m-0" href="">Business Consulting</a>
+                    <a class="text-dark text-decoration-none m-0" href="B">Business Consulting</a>
                   </li>
                   <li class="mt-2">
-                    <a class="text-dark text-decoration-none m-0" href="">Education & Training</a>
+                    <a class="text-dark text-decoration-none m-0" href="Education_Training.html">Education &
+                      Training</a>
                   </li>
                   <li class="mt-2">
-                    <a class="text-dark text-decoration-none m-0" href="">Information Service</a>
+                    <a class="text-dark text-decoration-none m-0" href="Information_Service.html">Information
+                      Service</a>
                   </li>
                   <li class="mt-2">
                     <a class="text-dark text-decoration-none m-0" href="">Entreprenuership</a>
@@ -58,6 +61,7 @@
             </li>
 
             <li class=" nav-link"><a href="" class="link text-decoration-none text-dark">About Us</a></li>
+            <li class=" nav-link"><a href="#contact-us" class="link text-decoration-none text-dark">Contact</a></li>
             <li class=" nav-link"><button class="btn btn-dark rounded-0 btn-lg">GET IN TOUCH</button></li>
           </ul>
         </div>
@@ -68,11 +72,13 @@
       <img src="../imgs/SecurityImg_2.jpg" class="position-absolute w-100 h-100 top-0" alt="">
       <div class="text-content position-absolute">
         <h1 class="text-white">Security Consulting System</h1>
-        <p class="text-white fs-1 fw-bolder text-lead">Security Consultant helps analyze and assesses security Business,
+        <p class="text-white display">Security Consultant helps analyze and assesses security Business,
           Education,
           Entreprenuership for better
           management and support in the society.</p>
-        <p class="text-white fs-5">We provide independent professional security consulting, and management support to
+        <p class="text-white w-75" style="font-size: 1.3rem;">We provide independent professional security consulting,
+          and
+          management support to
           sector
           where security and safety risks are considered a strategic threat.</p>
         <div class="mt-lg-4">
@@ -81,8 +87,8 @@
         </div>
       </div>
     </div>
-    <div class="message bg-light p-5 d-inline-flex">
-      <div class="w-50">
+    <div class="message row bg-light p-lg-5 m-0">
+      <div class="col-lg-6 py-sm-3">
         <h2>Dear Prospective</h2>
         <p class="">
           Risk Never Sleeps! The current global environmental changes have altered normal business life as we live,
@@ -92,13 +98,13 @@
           facilities and premises liabilities, travel risk, human resources, and intellectual assets loss, distribution
           and supply chain risk, vendor/insurance fraud, e.t.c...
         </p>
-        <button class=" btn btn-dark">Learn More</button>
+        <button class="btn rounded-0 btn-dark">Learn More</button>
         <hr>
         <p class="">We are a tree of proacademics. A hybrid security management organisation of adventurous
           academic researches,
           knowledgeable strategist, management physicians, technology architects, motivated experienced life and
           business coaches from diverse backgrounds to give value to our customers... </p>
-        <button class=" btn btn-dark">Learn More</button>
+        <button class="btn rounded-0 btn-dark">Learn More</button>
         <!-- <p>
           Stay ahead with Kroll.
           Kroll provides proprietary data, technology and insights to help our clients stay ahead of complex demands
@@ -107,12 +113,12 @@
           impact for our clients and communities.
         </p> -->
       </div>
-      <div class="design">
+      <div class="col-lg-6 design d-sm-flex justify-content-center">
         <img draggable="false" src="../imgs/valuation-img2.svg" alt="">
       </div>
 
     </div>
-    <div id="mission">
+    <div id="mission" class="px-5 py-3">
       <div class="row p-0 m-0">
         <div class="col-lg-4 mt-4 ">
           <div class="card">
@@ -138,29 +144,16 @@
         </div>
       </div>
     </div>
-    <div id="service">
+    <div id="service" class="my-5 px-lg-5">
       <h1 class="text-center">Services</h1>
       <div class="row m-0">
-        <div class="col-lg-4 mt-4">
+        <div class="col-lg-4 col-md-6 mt-4">
           <div class="card">
-            <img src="../imgs/secconsultancy.png" class="card-img-top position-relative" alt="">
-            <div class=" bg-dark overlay position-absolute"></div>
-            <img src="../imgs/security-logo.png" class="w-25 position-absolute service-logos" alt="">
-            <div class="card-body mb-2">
-              <h4 class="card-title">Security Consulting.</h4>
-              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit quibusdam minus atque
-                ut impedit dolores delectus iusto praesentium, perferendis eos vel natus tempore, eius quia nihil
-                perspiciatis modi voluptate libero magni.</p>
-              <span class="arrow-link "><i class="fa-solid fa-arrow-right-long"></i></span>
-
+            <div class="card-img-top w-100 h-100">
+              <img src="../imgs/secconsultancy.png" class="card-img-top" alt="">
+              <div class=" bg-dark overlay position-absolute"></div>
+              <img src="../imgs/security-logo.png" class="w-25 position-absolute service-logos" alt="">
             </div>
-          </div>
-        </div>
-        <div class="col-lg-4 mt-4">
-          <div class="card">
-            <img src="../imgs/BusinessCunsultancy.jpg" class="card-img-top" alt="">
-            <div class=" bg-dark overlay position-absolute"></div>
-            <img src="../imgs/business-logo.png" class="w-25 position-absolute service-logos" alt="">
             <div class="card-body mb-2">
               <h4 class="card-title">Business Consulting</h4>
               <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit quibusdam minus atque
@@ -171,11 +164,30 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 mt-4">
+        <div class="col-lg-4 col-md-6 mt-4">
           <div class="card">
-            <img src="../imgs/EducationConsultancy2.png" class="card-img-top" alt="">
-            <div class=" bg-dark overlay position-absolute"></div>
-            <img src="../imgs/education-logo2.png" class="w-25 position-absolute service-logos" alt="">
+            <div class="card-img-top w-100 h-100">
+              <img src="../imgs/BusinessCunsultancy.jpg" class="card-img-top" alt="">
+              <div class=" bg-dark overlay position-absolute"></div>
+              <img src="../imgs/business-logo.png" class="w-25 position-absolute service-logos" alt="">
+            </div>
+            <div class="card-body mb-2">
+              <h4 class="card-title">Business Consulting</h4>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit quibusdam minus atque
+                ut impedit dolores delectus iusto praesentium, perferendis eos vel natus tempore, eius quia nihil
+                perspiciatis modi voluptate libero magni.</p>
+              <span class="arrow-link "><i class="fa-solid fa-arrow-right-long"></i></span>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+          <div class="card">
+            <div class="card-img-top w-100 h-100">
+              <img src="../imgs/EducationConsultancy2.png" class="card-img-top" alt="">
+              <div class=" bg-dark overlay position-absolute"></div>
+              <img src="../imgs/education-logo2.png" class="w-25 position-absolute service-logos" alt="">
+            </div>
             <div class="card-body mb-2">
               <h4 class="card-title">Education & Training</h4>
               <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit quibusdam minus atque
@@ -186,11 +198,13 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 mt-4">
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
           <div class="card">
-            <img src="../imgs/inform_con.png" class="card-img-top" alt="">
-            <div class=" bg-dark overlay position-absolute"></div>
-            <img src="../imgs/information-logo2.png" class="w-25 position-absolute service-logos" alt="">
+            <div class="card-img-top w-100 h-100">
+              <img src="../imgs/inform_con.png" class="card-img-top" alt="">
+              <div class=" bg-dark overlay position-absolute"></div>
+              <img src="../imgs/information-logo2.png" class="w-25 position-absolute service-logos" alt="">
+            </div>
             <div class="card-body mb-2">
               <h4 class="card-title">Informationg Service</h4>
               <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit quibusdam minus atque
@@ -201,11 +215,13 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 mt-4">
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
           <div class="card">
-            <img src="../imgs/entreprenuer.png" class="card-img-top" alt="">
-            <div class=" bg-dark overlay position-absolute"></div>
-            <img src="../imgs/entrepreneur-logo.png" class="w-25 position-absolute service-logos" alt="">
+            <div class="card-img-top w-100 h-100">
+              <img src="../imgs/entreprenuer.png" class="card-img-top" alt="">
+              <div class=" bg-dark overlay position-absolute"></div>
+              <img src="../imgs/education-logo2.png" class="w-25 position-absolute service-logos" alt="">
+            </div>
             <div class="card-body mb-2">
               <h4 class="card-title">Entreprenuership</h4>
               <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit quibusdam minus atque
@@ -216,9 +232,13 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 mt-4">
+        <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
           <div class="card">
-            <img src="" class="card-img-top" alt="">
+            <div class="card-img-top w-100 h-100">
+              <img src="../imgs/secconsultancy.png" class="card-img-top" alt="">
+              <div class=" bg-dark overlay position-absolute"></div>
+              <img src="../imgs/security-logo.png" class="w-25 position-absolute service-logos" alt="">
+            </div>
             <div class="card-body mb-2">
               <h4 class="card-title">Software Development</h4>
               <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit quibusdam minus atque
@@ -232,14 +252,15 @@
       </div>
     </div>
     <div id="contact-us">
-      <div class="w-100 h-50 position-relative " style="background-color: #252525;">
-        <img src="../imgs//map.png" class="" alt="">
+      <div class="w-100 my-5 h-50 position-relative " style="background-color: #252525;">
+        <img draggable="false" src="../imgs//map.png" class="" alt="">
         <div class="contact-write-up px-lg-4 text-white w-50 position-absolute left-50">
           <h3>Stay ahead with SECCON</h3>
-          <p>Our services and processes are the benchmarks of global industry best practices. We can help your
+          <p class="fw-lighter">Our services and processes are the benchmarks of global industry best practices. We can
+            help your
             organisation plan, manage, develop, conduct, assess security gaps or review specialised security issues.</p>
           <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Send Email" aria-label=""
+            <input type="email" class="form-control w-25" placeholder="Send Email" aria-label=""
               aria-describedby="basic-addon2" />
             <span class="input-group-text" id="basic-addon2"><i class="fas fa-location-arrow text-white"></i></span>
           </div>
@@ -275,9 +296,16 @@
         <hr>
       </div>
     </div>
-
+    <div id="team" class="my-5 mx-5">
+      <h1 class="text-center">Meet The Team</h1>
+      <div class="row my-5 p-0">
+        <div class="col-lg-4 col-md-4 col-sm-6">
+          <div class="card"></div>
+        </div>
+      </div>
+    </div>
     <div id="sponsors">
-      <h1 class="text-center">Local & Internationer Authority and Sponsors</h1>
+      <h1 class="text-center">Local & International Authority and Sponsors</h1>
       <div class="sponsors_container">
         <div class="sponsors_track d-inline-flex border-1 border-dark">
           <div class="each p-3">
@@ -322,26 +350,33 @@
     </div>
     <div id="footer" class="mt-5">
       <div class="footer-top w-100 h-75 m-0 py-lg-4 container-fluid row p-0 m-0">
-        <div class="col-lg-3 col-md-6 col-sm-6 p-lg-5 logo">
+        <div class="col-lg-3 col-md-6 col-sm-6 p-lg-5 links">
           <img src="../imgs/Seccon_white_logo.png" class="w-75" alt="">
+          <p class="text-white mt-2">As it turns out that Seccon helps you manage your business, security, information
+            data,
+            software dev,and
+            other activities.</p>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 p-lg-5 text-white links">
+        <div class=" col-lg-3 col-md-6 col-sm-6 p-lg-5 text-white links">
           <h5 class="fw-bold position-relative pb-3">USEFUL LINKS</h5>
           <ul class="list-unstyled">
             <li class="mb-2">
-              <a href="" class="text-decoration-none text-light">Home</a>
+              <a href="" class="text-decoration-none text-light">Security Consulting</a>
             </li>
             <li class="mb-2">
-              <a href="" class="text-decoration-none text-light">Ebook</a>
+              <a href="" class="text-decoration-none text-light">Business Consulting</a>
             </li>
             <li class="mb-2">
-              <a href="" class="text-decoration-none text-light">AudioBooks</a>
+              <a href="" class="text-decoration-none text-light">Education & Training</a>
             </li>
             <li class="mb-2">
-              <a href="" class="text-decoration-none text-light">About Us</a>
+              <a href="" class="text-decoration-none text-light">Information Service</a>
             </li>
             <li class="mb-2">
-              <a href="" class="text-decoration-none text-light">Contact Us</a>
+              <a href="" class="text-decoration-none text-light">Entreprenuership</a>
+            </li>
+            <li class="mb-2">
+              <a href="" class="text-decoration-none text-light">Software Development</a>
             </li>
           </ul>
         </div>
@@ -378,11 +413,11 @@
         <div class="row m-0 text-center">
           <div class="col-lg-6 m-auto">
             <p class="mb-0 text-white">
-              &copy; right 2022 <span class="fw-bold">Online Library.</span> All
+              &copy; right 2022 <span class="fw-bold">Security Consultancy.</span> All
               Right Reserved
             </p>
-            <p class="text-white">
-              Designed by <span style="color: #0000ff">Dev YOH</span>
+            <p class="text-white text-capitalize">
+              Designed by <span style="color: #ff00b3">Dev YOH</span>
             </p>
           </div>
         </div>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Security_Consulting</title>
+    <title>Business Consuulting</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -23,7 +23,7 @@
         box-sizing: border-box;
     }
 
-    #security_consulting .security_heros {
+    #business_consulting .business_heros {
         height: 50vh;
         width: 90%;
         /* margin: auto 1.5rem; */
@@ -32,67 +32,117 @@
         background-image: linear-gradient(to right, rgba(123, 55, 243), rgba(0, 0, 0, 0.7));
     }
 
-    #security_consulting .security_heros h1 {
+    #business_consulting .business_heros h1 {
         font-size: 3rem;
         font-weight: 800;
     }
 
-    #security_consulting_content {
+    #business_consulting_content {
         margin: 40px 20px !important;
     }
 
-    #security_consulting_content .other_consultancies .hr {
+    /* #business_consulting_content .other_consultancies .hr {
         height: 30px;
         width: 98%;
         margin-left: -20px;
         border-top-right-radius: 200px;
         border-bottom-right-radius: 200px;
         background-image: linear-gradient(to right, rgba(123, 55, 243), rgba(0, 0, 0, 0.7));
-    }
+    } */
 
-    #security_consulting_content .images img {
+    #business_consulting_content .images img {
         width: 300px;
         height: 200px;
         padding: 5px;
     }
 
     @media (min-width: 315px) and (max-width: 480px) {
-        #security_consulting .security_heros {
+        #business_consulting .business_heros {
             width: 100%;
         }
 
-        #security_consulting .security_heros h1 {
-            font-size: 1.5rem !important;
+        #business_consulting .business_heros h1 {
+            font-size: 1.9rem !important;
             font-weight: 800;
         }
 
-        #security_consulting .security_heros p {
+        #business_consulting .business_heros p {
             font-size: 16px !important;
             width: 100% !important;
         }
 
-        #security_consulting_content .row {
+        #business_consulting_content .row {
             margin: 30px 0 !important;
         }
 
-        #security_consulting_content .images img {
+        /* #business_consulting_content .other_consultancies .hr {
+            height: 20px;
+            width: 100% !important;
+        } */
+
+        #business_consulting_content .images img {
             width: 150px !important;
             height: 100px !important;
             padding: 3px;
+            text-align: center !important;
+        }
+
+        .contact .w-25 {
+            width: 90% !important;
+            padding: 20px;
         }
     }
 
     @media (min-width: 540px) and (max-width: 720px) {
+        #business_consulting .business_heros {
+            width: 100%;
+        }
 
-
-        #security_consulting .security_heros h1 {
-            font-size: 1.7rem !important;
+        #business_consulting .business_heros h1 {
+            font-size: 2rem !important;
             font-weight: 800;
         }
 
-        #security_consulting .security_heros p {
+        #business_consulting .business_heros p {
             font-size: 18px !important;
             width: 100% !important;
+        }
+
+        #business_consulting_content .row {
+            margin: 30px 0 !important;
+        }
+
+        /* #business_consulting_content .other_consultancies .hr {
+            height: 20px;
+            width: 100% !important;
+        } */
+
+        #business_consulting_content .images img {
+            width: 150px !important;
+            height: 100px !important;
+            padding: 3px;
+
+        }
+
+        #business_consulting_content .images {
+            text-align: none !important;
+        }
+
+
+        .contact .w-25 {
+            width: 60% !important;
+            padding: 20px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .contact .w-25 {
+            width: 60% !important;
+            padding: 20px;
+        }
+
+        .contact .w-25 button {
+            margin-top: 10px;
         }
     }
 </style>
@@ -113,14 +163,14 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto d-flex justify-content-center align-items-center mb-lg-0">
                     <li class=" nav-link"><a href="Home.html" class="link text-decoration-none text-dark">Home</a></li>
-                    <li class=" nav-link position-relative  "><a href="Home.html"
+                    <li class=" nav-link position-relative  "><a href=""
                             class="text-dark link text-decoration-none">Services</a><i
                             class="fa-solid fa-angle-down ms-4"></i>
                         <div class="services-content  position-absolute">
                             <ul class="p-2 bg-info d-none m-0 list-unstyled ">
                                 <li class="mt-2">
                                     <a class="text-dark text-decoration-none m-0"
-                                        href="security_consulting.html">Security
+                                        href="business_consulting.html">Security
                                         Consulting</a>
                                 </li>
                                 <li class="mt-2">
@@ -154,52 +204,42 @@
             </div>
         </nav>
     </div>
-    <div id="security_consulting">
-        <div class="security_heros d-flex justify-content-center align-items-center">
+    <div id="business_consulting">
+        <div class="business_heros d-flex justify-content-center align-items-center">
             <div class="px-4">
-                <h1 class="text-white">SOFTWARE DEVELOPMENT CONSULTING</h1>
-                <p class="text-white w-75 fs-4">Seccon Security Company is a professional security firm that provides
-                    services such as specialised security issues, fire and life safety system, CCTV installation and
-                    general consultancy service.</p>
+                <h1 class="text-white">BUSINESS CONSULTING</h1>
+                <p class="text-white w-75 fs-4">Seccon Business Management Consulting Firm, Creating Optimal Value in
+                    Information Technology and Business Management
+                    Solutions for Organizations across Nigeria, West Africa.</p>
             </div>
         </div>
         <div id="security_consulting_content">
             <div class="row my-5 mx-4 p-0">
                 <div class="col-lg-6 p-0">
-                    <h1 class="text-lead fw-light">What does <br><span class="fw-bolder">Software Development
+                    <h1 class="text-lead fw-light">What does <br><span class="fw-bolder">Business Consultant
                             <br></span>do?</h1>
-                    <p>The main role of a software consultant is to recommend an optimal technical solution to help
-                        businesses solve problems and achieve their goals.
-
-                        However, the responsibilities of a software consultant aren’t limited to recommendations alone.
-                        They include:</p>
-                    <ul>
-                        <li><strong>Gathering business information and requirements. </strong>Consultant need to know
-                            everything about the business they assist. This includes business scope, industry, workflow,
-                            and other aspects.</li>
-                        <li><strong>Recommending a suitable implementation.</strong>Based on the gathering data, the
-                            consultant must select a solution that will best suit the company in terms of availability
-                            and resources.</li>
-                        <li><strong>Collaborating with developers and coordinating the development process. </strong>If
-                            the solution requires development from scratch, the software development consultant teams up
-                            with the development team to oversee the entire development process and transfer the correct
-                            vision of the final product to the developers. There are also cases when consulting
-                            companies have required talent and experience to provide IT service.
-                            this way a company may act as an IT service provider.</li>
-                        <li><strong>Testing solution for correct work. </strong>The developed solution must work as
-                            intended and must be smoothly integrated into the company business processes. Together with
-                            QA engineers, the consultant test the final product to deliver a bug-free solution.</li>
-                    </ul>
+                    <p>Business consultants can assist in nearly any need your business might have. There are business
+                        consultants that specialize in specific industries, while others take a more general approach.
+                        While specific services vary, some of the most common ones are listed below</p>
+                    <li>Identify obstacles that are preventing growth or efficiency</li>
+                    <li>Determine what changes need to be made and help implement changes</li>
+                    <li>Provide any necessary training and resources to staff and management</li>
+                    <li>Bring out-of-the-box ideas to refresh a business</li>
+                    <li>Assist in business planning and creating new businesses</li>
+                    <li>Assess, hire, and fire staff, if necessary</li>
+                    <li>Implement new programs</li>
+                    <li>Analyze a company’s budget, suggest adjustments, and help put those adjustments in place</li>
+                    <li>Locate providers and partners to help meet goals</li>
                 </div>
-                <div class="col-lg-6 p-0 my-auto">
+                <div class="col-lg-6 p-0 mt-3">
                     <div class="shape">
 
                     </div>
                     <div class="d-flex justify-content-center align-items-center">
                         <div class="images text-center">
-                            <img src="../imgs/softwareDev_img2.png" alt="">
+                            <img class="p-2" src="../imgs/business_img.png" alt="">
 
-                            <img src="../imgs/softwareDev_img.png" alt="">
+                            <img class="p-2" src="../imgs/business_img2.png" alt="">
                         </div>
                         <!-- <div class="images text-start">
                             <img src="../imgs/SecurityImg_3.jpg.png" alt="">
@@ -207,13 +247,20 @@
                         </div> -->
                     </div>
                 </div>
-            </div>
 
+
+            </div>
+            <div class="contact bg-dark my-5">
+                <div class="mx-auto text-center py-lg-5 w-25">
+                    <h5 class="text-light">Thank you for visiting, If by all means you needed to contact us
+                        directly.</h5>
+                    <button class="rounded-0 mt-lg-4 btn btn-outline-light btn-lg">Get In Touch</button>
+                </div>
+            </div>
         </div>
     </div>
 
-
-    <div id="sponsors" class="py-4">
+    <div id="sponsors">
         <h1 class="text-center">Local & International Authority and Sponsors</h1>
         <div class="sponsors_container">
             <div class="sponsors_track d-inline-flex border-1 border-dark">
@@ -251,7 +298,7 @@
 
         </div>
         <div class="d-flex justify-content-center align-items-center">
-            <div class="nav w-25 d-sm-none">
+            <div class="nav w-5">
                 <button class="prev">
                     <i class="fa-solid fa-arrow-left-long"></i>
                 </button>
@@ -260,9 +307,12 @@
             </div>
         </div>
     </div>
+
+
+
     <div id="footer" class="mt-5">
         <div class="footer-top w-100 h-75 m-0 py-lg-4 container-fluid row p-0 m-0">
-            <div class="col-lg-3 col-md-6 col-sm-6 p-lg-5 logo">
+            <div class="col-lg-3 col-md-6 col-sm-6 p-lg-5 links">
                 <img src="../imgs/Seccon_white_logo.png" class="w-75" alt="">
                 <p class="text-white mt-2">As it turns out that Seccon helps you manage your business, security,
                     information
@@ -270,20 +320,23 @@
                     software dev and
                     other activities.</p>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-6 p-lg-5 text-white links">
+            <div class=" col-lg-3 col-md-6 col-sm-6 p-lg-5 text-white links">
                 <h5 class="fw-bold position-relative pb-3">USEFUL LINKS</h5>
                 <ul class="list-unstyled">
                     <li class="mb-2">
-                        <a href="" class="text-decoration-none text-light">Security Consulting</a>
+                        <a href="Security_Consulting.html" class="text-decoration-none text-light">Security
+                            Consulting</a>
                     </li>
                     <li class="mb-2">
                         <a href="" class="text-decoration-none text-light">Business Consulting</a>
                     </li>
                     <li class="mb-2">
-                        <a href="" class="text-decoration-none text-light">Education & Training</a>
+                        <a href="Education_Training.html" class="text-decoration-none text-light">Education &
+                            Training</a>
                     </li>
                     <li class="mb-2">
-                        <a href="" class="text-decoration-none text-light">Information Service</a>
+                        <a href="Information_Service.html" class="text-decoration-none text-light">Information
+                            Service</a>
                     </li>
                     <li class="mb-2">
                         <a href="" class="text-decoration-none text-light">Entreprenuership</a>
@@ -322,7 +375,6 @@
                 </div>
             </div>
         </div>
-        ,
         <div class="container-fluid footer-bottom p-0 m-0">
             <div class="row m-0 text-center">
                 <div class="col-lg-6 m-auto">
@@ -337,7 +389,6 @@
             </div>
         </div>
     </div>
-
     <script src="../javascript//bootstrap.min.js"></script>
     <script src="../javascript/index.js"></script>
 </body>

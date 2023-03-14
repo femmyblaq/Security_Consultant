@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Security_Consulting</title>
+    <title>Software Development</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -23,25 +23,30 @@
         box-sizing: border-box;
     }
 
-    #security_consulting .security_heros {
+    #software_development .software_heros {
         height: 50vh;
         width: 90%;
         /* margin: auto 1.5rem; */
         border-top-right-radius: 200px;
         border-bottom-right-radius: 200px;
+        padding: 0 40px;
         background-image: linear-gradient(to right, rgba(123, 55, 243), rgba(0, 0, 0, 0.7));
     }
 
-    #security_consulting .security_heros h1 {
+    #software_development .software_heros h1 {
         font-size: 3rem;
         font-weight: 800;
     }
 
-    #security_consulting_content {
+    #software_development_content {
         margin: 40px 20px !important;
     }
 
-    #security_consulting_content .other_consultancies .hr {
+    #software_development_content .row {
+        margin: 140px 70px !important;
+    }
+
+    #software_development_content .other_consultancies .hr {
         height: 30px;
         width: 98%;
         margin-left: -20px;
@@ -50,32 +55,38 @@
         background-image: linear-gradient(to right, rgba(123, 55, 243), rgba(0, 0, 0, 0.7));
     }
 
-    #security_consulting_content .images img {
+    #software_development_content .images img {
         width: 300px;
         height: 200px;
         padding: 5px;
     }
 
+    .paragraph-lg,
+    ul .li {
+        font-size: 1.2rem;
+        margin: 20px 0;
+    }
+
     @media (min-width: 315px) and (max-width: 480px) {
-        #security_consulting .security_heros {
+        #software_development .software_heros {
             width: 100%;
         }
 
-        #security_consulting .security_heros h1 {
+        #software_development .software_heros h1 {
             font-size: 1.5rem !important;
             font-weight: 800;
         }
 
-        #security_consulting .security_heros p {
+        #software_development .software_heros p {
             font-size: 16px !important;
             width: 100% !important;
         }
 
-        #security_consulting_content .row {
+        #software_development_content .row {
             margin: 30px 0 !important;
         }
 
-        #security_consulting_content .images img {
+        #software_development_content .images img {
             width: 150px !important;
             height: 100px !important;
             padding: 3px;
@@ -85,12 +96,12 @@
     @media (min-width: 540px) and (max-width: 720px) {
 
 
-        #security_consulting .security_heros h1 {
+        #software_development .software_heros h1 {
             font-size: 1.7rem !important;
             font-weight: 800;
         }
 
-        #security_consulting .security_heros p {
+        #software_development .software_heros p {
             font-size: 18px !important;
             width: 100% !important;
         }
@@ -120,7 +131,7 @@
                             <ul class="p-2 bg-info d-none m-0 list-unstyled ">
                                 <li class="mt-2">
                                     <a class="text-dark text-decoration-none m-0"
-                                        href="security_consulting.html">Security
+                                        href="Security_Consulting.html">Security
                                         Consulting</a>
                                 </li>
                                 <li class="mt-2">
@@ -137,7 +148,8 @@
                                         Service</a>
                                 </li>
                                 <li class="mt-2">
-                                    <a class="text-dark text-decoration-none m-0" href="">Entreprenuership</a>
+                                    <a class="text-dark text-decoration-none m-0"
+                                        href="Enterpreneur.html">Entreprenuership</a>
                                 </li>
                                 <li class="mt-2">
                                     <a class="text-dark text-decoration-none m-0" href="Software_Dev.html">Sofware
@@ -154,8 +166,8 @@
             </div>
         </nav>
     </div>
-    <div id="security_consulting">
-        <div class="security_heros d-flex justify-content-center align-items-center">
+    <div id="software_development">
+        <div class="software_heros d-flex justify-content-center align-items-center">
             <div class="px-4">
                 <h1 class="text-white">SOFTWARE DEVELOPMENT CONSULTING</h1>
                 <p class="text-white w-75 fs-4">Seccon Security Company is a professional security firm that provides
@@ -163,35 +175,40 @@
                     general consultancy service.</p>
             </div>
         </div>
-        <div id="security_consulting_content">
-            <div class="row my-5 mx-4 p-0">
-                <div class="col-lg-6 p-0">
+        <div id="software_development_content">
+            <div class="row my-5 mx-5 p-0">
+                <div class="col-lg-8 p-0">
                     <h1 class="text-lead fw-light">What does <br><span class="fw-bolder">Software Development
                             <br></span>do?</h1>
-                    <p>The main role of a software consultant is to recommend an optimal technical solution to help
+                    <p class="paragraph-lg">The main role of a software consultant is to recommend an optimal technical
+                        solution to help
                         businesses solve problems and achieve their goals.
 
                         However, the responsibilities of a software consultant aren’t limited to recommendations alone.
                         They include:</p>
                     <ul>
-                        <li><strong>Gathering business information and requirements. </strong>Consultant need to know
+                        <li class="li"><strong>Gathering business information and requirements. </strong>Consultant need
+                            to know
                             everything about the business they assist. This includes business scope, industry, workflow,
                             and other aspects.</li>
-                        <li><strong>Recommending a suitable implementation.</strong>Based on the gathering data, the
+                        <li class="li"><strong>Recommending a suitable implementation.</strong>Based on the gathering
+                            data, the
                             consultant must select a solution that will best suit the company in terms of availability
                             and resources.</li>
-                        <li><strong>Collaborating with developers and coordinating the development process. </strong>If
+                        <li class="li"><strong>Collaborating with developers and coordinating the development process.
+                            </strong>If
                             the solution requires development from scratch, the software development consultant teams up
                             with the development team to oversee the entire development process and transfer the correct
                             vision of the final product to the developers. There are also cases when consulting
                             companies have required talent and experience to provide IT service.
                             this way a company may act as an IT service provider.</li>
-                        <li><strong>Testing solution for correct work. </strong>The developed solution must work as
+                        <li class="li"><strong>Testing solution for correct work. </strong>The developed solution must
+                            work as
                             intended and must be smoothly integrated into the company business processes. Together with
                             QA engineers, the consultant test the final product to deliver a bug-free solution.</li>
                     </ul>
                 </div>
-                <div class="col-lg-6 p-0 my-auto">
+                <div class="col-lg-4 p-0 my-auto">
                     <div class="shape">
 
                     </div>
@@ -199,6 +216,7 @@
                         <div class="images text-center">
                             <img src="../imgs/softwareDev_img2.png" alt="">
 
+                            <img src="../imgs/softwareDev_img.png" alt="">
                             <img src="../imgs/softwareDev_img.png" alt="">
                         </div>
                         <!-- <div class="images text-start">

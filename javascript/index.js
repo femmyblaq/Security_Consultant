@@ -101,3 +101,14 @@ window.onscroll = function () {
   }
   prevScrollpos = currentScrollPos;
 };
+
+window.addEventListener("load", function () {
+  const preloaderContainer = this.document.querySelector(
+    ".preloader-container"
+  );
+  preloaderContainer.style.display = "none";
+  const body = (this.document.getElementsByTagName(body).style.overflow =
+    "scroll");
+});
+// Google map api key
+// AIzaSyAAS1gLlTD-qXKLZT-H67U5aEvz7UcCCnU

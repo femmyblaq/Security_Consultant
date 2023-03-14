@@ -79,6 +79,11 @@
   z-index: 100;
 }
 
+.message {
+  margin: 70px 40px !important;
+  padding: 50px;
+}
+
 /* Service css section  */
 
 
@@ -168,6 +173,10 @@ a {
 
 #testimonials .monials hr {
   border-top: 7px dashed solid red
+}
+
+#sponsors {
+  margin: 130px 0;
 }
 
 #sponsors .sponsors_container {
@@ -337,6 +346,7 @@ a {
 
   .message {
     padding: 20px 8px !important;
+
   }
 
   .message :first-child {

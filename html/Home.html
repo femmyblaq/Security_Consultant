@@ -12,13 +12,77 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto&family=Source+Sans+Pro:wght@400;600;700;900&family=Ubuntu:wght@400;500;700&display=swap"
     rel="stylesheet">
+  <!-- <link rel="shortcut icon" href="/imgs/favicon.ico" type="image/x-icon"> -->
+  <link type="image/png" sizes="32x32" rel="icon" href=".../icons8-security-configuration-32.png">
   <!-- style stylesheet link  -->
   <link rel="stylesheet" href="../css//style.css">
   <link rel="stylesheet" href="../css//bootstrap.min.css">
   <script src="https://kit.fontawesome.com/da55b0bc07.js" crossorigin="anonymous"></script>
 </head>
+<style>
+  html,
+  body {
+    margin: 0;
+    /* overflow: hidden !important; */
+    height: 100%;
+  }
+
+  .preloader-container {
+    height: 100vh;
+    display: flex;
+    overflow: hidden !important;
+    position: absolute;
+    width: 100%;
+    background-color: aliceblue;
+    z-index: 1111111;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .preloader-circle,
+  .preloader-circle::before {
+    content: " ";
+    margin: 15px;
+    z-index: 1111;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0 4px;
+    transition: all 0.3s;
+    background-color: #a9a8a8;
+  }
+
+  .preloader-circle::before {
+    animation: mymove .5s infinite;
+    position: absolute;
+    background-color: #ccc
+  }
+
+  @-webkit-keyframes mymove {
+    50% {
+      transform: scale(2);
+      opacity: 0
+    }
+
+    100% {
+      transform: scale(2);
+      opacity: 0
+    }
+  }
+</style>
 
 <body>
+  <div class="preloader-container">
+    <img src="../imgs/Seccon_logo_web.png" class="w-25" alt="">
+    <div class="d-inline-flex">
+      <div class="preloader-circle"></div>
+      <div class="preloader-circle"></div>
+      <div class="preloader-circle"></div>
+      <div class="preloader-circle"></div>
+      <!-- <div class="preloader-circle"></div> -->
+    </div>
+  </div>
   <div class="container-fluid p-0">
     <div id="header" class="sticky-top">
       <nav class="navbar  navbar-expand-lg navbar-light bg-light px-lg-4 py-lg-3">
@@ -55,7 +119,7 @@
                       Service</a>
                   </li>
                   <li class="mt-2">
-                    <a class="text-dark text-decoration-none m-0" href="">Entreprenuership</a>
+                    <a class="text-dark text-decoration-none m-0" href="Enterpreneur.html">Entreprenuership</a>
                   </li>
                   <li class="mt-2">
                     <a class="text-dark text-decoration-none m-0" href="Software_Dev.html">Sofware Development</a>
@@ -97,7 +161,7 @@
         </div>
       </div>
     </div>
-    <div class="message row bg-light p-lg-5 m-0">
+    <div class="message row bg-light  mx-0">
       <div class="col-lg-6 py-sm-3">
         <h2>Dear Prospective</h2>
         <p class="">
@@ -124,7 +188,8 @@
         </p> -->
       </div>
       <div class="col-lg-6 design d-sm-flex justify-content-center">
-        <img draggable="false" src="../imgs/valuation-img2.svg" alt="">
+        <img draggable="false" src="../imgs/valuation-img2.svg" class="w-7
+        " alt="">
       </div>
 
     </div>
@@ -277,7 +342,7 @@
       <div class="w-100 py-5 my-auto position-relative " style="background-color: #252525;">
         <img draggable="false" src="../imgs//map.png" class="" alt="">
         <div class="contact-write-up px-lg-4 text-white w-50 position-absolute left-50">
-          <h3>Stay ahead with SECCON</h3>
+          <h3>Stay ahead with <span style="color: #00ccff;">SECCON</span></h3>
           <p class="fw-lighter py-3">Our services and processes are the benchmarks of global industry best practices. We
             can
             help your
@@ -306,7 +371,7 @@
       </div>
 
     </div>
-    <div id="testimonials" class="p-5 w-50 m-auto">
+    <div id="testimonials" class="p-5 w-50 my-lg-5 mx-auto">
       <h1>Testimonials</h1>
       <div class="monials my-4">
         <p>With your service my business has been able to comply efficiently to my customers, you saved my business from
@@ -332,8 +397,12 @@
     <div id="team" class="my-5 mx-5">
       <h1 class="text-center">Meet The Team</h1>
       <div class="row my-5 p-0">
-        <div class="col-lg-4 col-md-4 col-sm-6">
-          <div class="card"></div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="card text-center p-4">
+            <div class="img-container bg-secondary rounded-pill m-auto" style="height: 200px; width: 150px;"></div>
+            <h5 class="card-title mt-3">Yusph O. Habeeb</h5>
+            <p class="card-text">Software Development Consultant</p>
+          </div>
         </div>
       </div>
     </div>
@@ -390,7 +459,7 @@
           <img src="../imgs/Seccon_white_logo.png" class="w-75" alt="">
           <p class="text-white mt-2">As it turns out that Seccon helps you manage your business, security, information
             data,
-            software dev,and
+            software dev and
             other activities.</p>
         </div>
         <div class=" col-lg-3 col-md-6 col-sm-6 p-lg-5 text-white links">
@@ -462,6 +531,10 @@
 
     <script src="../javascript//bootstrap.min.js"></script>
     <script src="../javascript/index.js"></script>
+    <script async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAS1gLlTD-qXKLZT-H67U5aEvz7UcCCnU&callback=initMap&v=weekly"
+      defer></script>
 </body>
+<script src="/javascript/bootstrap.min.js"></script>
 
 </html>

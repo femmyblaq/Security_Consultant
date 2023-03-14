@@ -23,6 +23,14 @@
         box-sizing: border-box;
     }
 
+    #information_service_content {
+        margin: 40px 20px !important;
+    }
+
+    #information_service_content .row {
+        margin: 140px 70px !important;
+    }
+
     #information_service .information_heros {
         height: 50vh;
         width: 90%;
@@ -35,6 +43,18 @@
     #information_service .information_heros h1 {
         font-size: 3rem;
         font-weight: 800;
+    }
+
+    #information_service_content .images img {
+        width: 600px;
+        height: 900px;
+        /* padding: 5px;     */
+    }
+
+    .paragraph-lg,
+    ul .li {
+        font-size: 1.2rem;
+        margin: 20px 0;
     }
 
     @media (min-width: 315px) and (max-width: 480px) {
@@ -105,7 +125,8 @@
                                         Service</a>
                                 </li>
                                 <li class="mt-2">
-                                    <a class="text-dark text-decoration-none m-0" href="">Entreprenuership</a>
+                                    <a class="text-dark text-decoration-none m-0"
+                                        href="Enterpreneur.html">Entreprenuership</a>
                                 </li>
                                 <li class="mt-2">
                                     <a class="text-dark text-decoration-none m-0" href="Software_Dev.html">Sofware
@@ -123,7 +144,7 @@
         </nav>
     </div>
     <div id="information_service">
-        <div class="information_heros d-flex justify-content-center align-items-center">
+        <div class="information_heros px-4 d-flex  justify-content-center align-items-center">
             <div class="px-4">
                 <h1 class="text-white">INFORMATION SERVICE</h1>
                 <p class="text-white w-75 fs-4">Seccon provide industry specific market research, business intelligence
@@ -137,7 +158,8 @@
                 <div class="col-lg-6">
                     <h1 class="text-lead fw-light">What does <br><span class="fw-bolder">Information Service
                             <br></span>do?</h1>
-                    <p>Information Systems Security (InfoSec) protects information systems, and the data that resides on
+                    <p class="paragraph-lg">Information Systems Security (InfoSec) protects information systems, and the
+                        data that resides on
                         them, from unauthorized access and disruption of access to authorized users. The triad of
                         InfoSec contains three fundamental components: Confidentiality, Integrity, and Availability
                         (CIA).
@@ -151,7 +173,8 @@
                         system (quarantine) etc. SECCON has developed a continuous circle of protect, detect, respond
                         that
                         has proven effective to our clients.</p>
-                    <p>The Nigeria private security industry contributes an estimated 0.7% to GDP, with over N550b in
+                    <p class="paragraph-lg">The Nigeria private security industry contributes an estimated 0.7% to GDP,
+                        with over N550b in
                         supply chain value. In two decades of close watch, we have observed the industry appreciating
                         out of mediocrity to a structured profitable service business, and a performing corporate
                         business unit. Hence, adding value to the overall organisational growth and the national
@@ -167,15 +190,35 @@
                         operational technology managers to improve productivity, but also, increasing operating
                         equipment effectiveness.</p>
                 </div>
-                <div class="col-lg-6">
+                <div class="images col-lg-6 d-inline-flex align-items-center">
                     <div class="shape">
 
                     </div>
-                    <img src="" alt="">
+                    <img src="/imgs/pexels-tima-miroshnichenko-5453819.jpg" alt="">
                 </div>
             </div>
-            <div class="contact" style="background-color: blueviolet;">
-                <div class="mx-auto text-center py-lg-5 w-25">
+
+        </div>
+
+    </div>
+    <div class="contact" style="background-color: rgb(78, 2, 149);">
+        <div class="row m-0 w-50 mx-auto">
+            <div class="col-lg-6">
+                <ul class="list-unstyled mx-auto text-start py-lg-5">
+                    <li class="text-white my-3 fs-5"><img src="/imgs/icons8-phone-50.png" class="me-4"
+                            style="width: 30px;" alt=""> + 234
+                        9016290149
+                    </li>
+                    <li class="text-white my-3 fs-5"><img src="/imgs/icons8-message-read-60.png" class="me-4"
+                            style="width: 30px;" alt="">
+                        info@seccon.com</li>
+                    <li class="text-white my-3 fs-5"><img src="/imgs/icons8-visit-50.png" class="me-4"
+                            style="width: 30px;" alt=""> Lagos Nigeria.
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <div class="mx-auto text-center py-lg-5">
                     <h5 class="text-light">Thank you for visiting, If by all means you needed to contact us
                         directly.</h5>
                     <button class="rounded-0 mt-lg-4 btn btn-outline-light btn-lg">Get In Touch</button>

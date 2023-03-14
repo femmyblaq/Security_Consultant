@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Education & Training</title>
+    <title>Entrepreneurial Consulting</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -23,7 +23,15 @@
         box-sizing: border-box;
     }
 
-    #education_training .security_heros {
+    #entrepreneur_service_content {
+        margin: 40px 20px !important;
+    }
+
+    #entrepreneur_service_content .row {
+        margin: 140px 70px !important;
+    }
+
+    #entrepreneur_service .entrepreneur_heros {
         height: 50vh;
         width: 90%;
         /* margin: auto 1.5rem; */
@@ -32,21 +40,9 @@
         background-image: linear-gradient(to right, rgba(123, 55, 243), rgba(0, 0, 0, 0.7));
     }
 
-    #education_training .security_heros h1 {
+    #entrepreneur_service .entrepreneur_heros h1 {
         font-size: 3rem;
         font-weight: 800;
-    }
-
-    #education_logo .card {
-        flex-direction: row !important;
-        margin: 5rem auto !important;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 700px;
-    }
-
-    #education_training_content .row {
-        margin: 140px 70px !important;
     }
 
     .paragraph-lg,
@@ -55,154 +51,36 @@
         margin: 20px 0;
     }
 
-    #education_training_content .images img {
+    #entrepreneur_service_content .images img {
         width: 300px;
         height: 200px;
         padding: 5px;
     }
 
-    @media (min-width: 215px) and (max-width: 314px) {
-        #education_training .security_heros {
-            width: 100% !important;
-        }
-
-        #education_training .security_heros h1 {
-            font-size: 1rem !important;
-            font-weight: 800;
-        }
-
-        #education_training .security_heros p {
-            font-size: 14px !important;
-            width: 100% !important;
-        }
-
-        #education_training_content {
-            margin: 30px 10px !important;
-        }
-
-        #education_training_content .row {
-            margin: 20px 0 !important;
-        }
-
-        #education_logo .card {
-            flex-direction: column !important;
-            margin: 2.5rem auto !important;
-            padding: 10px !important;
-            left: 0% !important;
-            transform: translateX(0%) !important;
-            width: 100% !important;
-        }
-
-        #education_logo .edu_logo img {
-            width: 200px !important;
-        }
-
-        #education_logo .card p {
-            font-size: 1rem !important;
-        }
-
-        #education_training_content img {
-            width: 100% !important;
-            height: 100% !important;
-            padding: 3px;
-        }
-    }
-
     @media (min-width: 315px) and (max-width: 480px) {
-        #education_training .security_heros {
+        #entrepreneur_service .entrepreneur_heros {
+            height: 50vh;
             width: 100%;
         }
 
-        #education_training .security_heros h1 {
-            font-size: 1.5rem !important;
-            font-weight: 800;
+        #entrepreneur_service .entrepreneur_heros h1 {
+            font-size: 1.5rem;
         }
 
-        #education_training .security_heros p {
-            font-size: 16px !important;
-            width: 100% !important;
-        }
-
-        #education_training_content {
-            margin: 30px 10px !important;
-        }
-
-        #education_training_content .row {
-            margin: 20px 0 !important;
-        }
-
-        #education_logo .card {
-            flex-direction: column !important;
-            margin: 2.5rem auto !important;
-            left: 4% !important;
-            transform: translateX(0%) !important;
-            width: 90% !important;
-        }
-
-        #education_logo .edu_logo img {
-            width: 250px !important;
-        }
-
-        #education_logo .card p {
+        #entrepreneur_service .entrepreneur_heros p {
             font-size: 1rem !important;
         }
 
-        #education_training_content .images img {
-            width: 150px !important;
-            height: 100px !important;
-            padding: 3px;
-        }
-
-        .competency .table-container {
-            width: 100%;
-            padding: 20px 15px;
-            overflow-x: scroll;
-        }
-    }
-
-    @media (min-width: 481px) and (max-width: 780px) {
-        #education_training .security_heros {
-            width: 100%;
-        }
-
-        #education_training .security_heros h1 {
-            font-size: 1.5rem !important;
-            font-weight: 800;
-        }
-
-        #education_training .security_heros p {
-            font-size: 16px !important;
-            width: 100% !important;
-        }
-
-        #education_training_content {
+        #entrepreneur_service_content .row {
             margin: 30px 10px !important;
         }
 
-        #education_training_content .row {
-            margin: 20px 0 !important;
+        .contact div {
+            width: 100% !important;
         }
 
-        #education_logo .card {
-            flex-direction: column !important;
-            margin: 2.5rem auto !important;
-            left: 4% !important;
-            transform: translateX(0%) !important;
-            width: 90% !important;
-        }
-
-        #education_logo .edu_logo img {
-            width: 250px !important;
-        }
-
-        #education_logo .card p {
-            font-size: 1rem !important;
-        }
-
-        #education_training_content .images img {
-            width: 150px !important;
-            height: 100px !important;
-            padding: 3px;
+        .contact div .btn {
+            margin-top: 10px !important;
         }
     }
 </style>
@@ -265,148 +143,65 @@
             </div>
         </nav>
     </div>
-    <div id="education_training">
-        <div class="security_heros px-5 d-flex justify-content-center align-items-center">
+    <div id="entrepreneur_service">
+        <div class="entrepreneur_heros px-4 d-flex  justify-content-center align-items-center">
             <div class="px-4">
-                <h1 class="text-white text-capitalize">EDUCATION & TRAINING CONSULTING</h1>
-                <p class="text-white w-75 fs-4">Seccons provides business education management & consulting, business
-                    support and service provider, we shall also be offering range of business solutions. Our array of
-                    services would have synergy to support each other, especially at the inception of the business.</p>
+                <h1 class="text-white">ENTREPRENEURIAL CONSULTING</h1>
+                <p class="text-white w-75 fs-4">As an entrepreneurial consultant we assist business owner who provides
+                    expert advice in a particular field or industry.</p>
             </div>
         </div>
-        <div id="education_logo" class="row my-5 mx-0">
-            <div class="col-12 mx-auto">
-                <div class="card shadow p-lg-4 d-inline-flex">
-                    <div class="edu_logo text-center">
-                        <img class="" src="../imgs/Education_logo.png" alt="">
-                    </div>
-                    <div class="card-body">
-                        <p style="font-size: 20px;">
-                            All courses are developed and reviewed annually by subject matter experts, to meet current
-                            skill
-                            gap. Also, the courses are accredited by globally recognised academic and professional
-                            institutions, and delivered by verified instructors.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="education_training_content">
-            <div class="row my-3 mx-4 p-0">
-                <div class="col-lg-12">
-                    <h1 class="text-lead fw-light">What does <br><span class="fw-bolder">Education & Training
+        <div id="entrepreneur_service_content">
+            <div class="row my-5 mx-4 p-0">
+                <div class="col-lg-12 mt-4">
+                    <h1 class="text-lead fw-light">What does <br><span class="fw-bolder">Entrepreneur Consulting
                             <br></span>do?</h1>
-                    <p class="paragraph-lg">We offer specialised professional compentency skill training in operational,
-                        management and
-                        strategic security risk management. In addition, entrepreneurship, business development, career
-                        mentorship, critical thinking and problem solving skills, e.t.c. The trainers are verified,
-                        experienced and assigned based on area of competence. The learning modules are structured to
-                        give you the desired learning experience and value for your money. For your convenience, we
-                        conduct on-site executive class room trainings, in-house trainings, correspondence, virtual
-                        learning, e.t.c.</p>
-                    <h5>Typical duties include:</h5>
-                    <ul>
-                        <li class="li">Serve as an advisor for teachers, parents, school administrators, school boards,
-                            and
-                            class="li" government officials</li>
-                        <li class="li">Assess education standards and classroom policies, as well as grades and test
-                            scores</li>
-                        <li class="li">Help implement changes to curriculum based on data</li>
-                        <li class="li">Survey students to change programs or curriculum</li>
-                        <li class="li">Report on the effectiveness of current academic systems</li>
-                        <li class="li">Devise strategies to improve educational quality and help implement new policies
-                        </li>
-                        <li class="li">Design new training programs and offer teacher training workshops</li>
-                        <li class="li">Recommend different educational materials</li>
-                        <li class="li">Implement and guide usage of new technologies</li>
-                        <li class="li">Assist in correlating systems to improve student drop-out rates</li>
-                        <li class="li">Advise academic intervention programs</li>
-                        <li class="li">Supervise online education</li>
-                        <li class="li">Guide college selection and application</li>
-                        <li class="li">Match students to appropriate learning environments, such as special education
-                            programs</li>
-                        <li class="li">Meet with administrators and teachers to discuss programs and budgets</li>
-                    </ul>
+                    <p class="paragraph-lg">
+                        The COVID-19 pandemic has changed our lives and the ways we do business, making it more
+                        important than ever to use the services of a creative business consultant.
+
+                        In the current climate, it is vital to ensure that your company survives and grows. Expenses are
+                        kept to a minimum and that you stay ahead of the pack. That is why big and small companies all
+                        over the world are tightening their belts to keep afloat, and many are hiring an
+                        entrepreneurship consultant to advise them professionally and objectively to ensure that their
+                        business is successful.
+
+                        How do you choose the right entrepreneurship consultant to give you expert advice on your
+                        particular business?. Someone who that will add value to your company?
+                        <br>
+                        <br>
+                        <br>
+                        Our entrepreneurial consulting clients include success-motivated small and medium sized
+                        businesses that are planning for future ownership transitions. Our work has enabled our clients
+                        to make critical business decisions and transition to new levels of success. We work with our
+                        clients to develop business plans that make sense relative to their market opportunities and
+                        competition.
+
+                        We help clients identify options to expand their revenues through strategies designed to
+                        increase sales or identify acquisition opportunities. We assist our clients in positioning their
+                        businesses for longer-term acquisition. We help our clients deal with increasing business
+                        complexity due to growth or the need for a turnaround..</p>
                 </div>
-                <div class="col-lg-12 p-0 py-4 d-flex">
+                <div class="col-lg-12 mt-4 p-0 d-inline-flex align-items-center">
                     <div class="shape">
-                    </div>
-                    <div class=" m-auto">
-                        <div class="images text-end">
-                            <img src="../imgs/EducationConsultancy2.png" alt="">
 
-                            <img src="../imgs/EducationConsultancy.png" alt="">
-                        </div>
-                        <div class="images text-start">
-                            <img src="../imgs/SecurityImg_3.jpg.png" alt="">
-                            <img src="../imgs/SecurityImg_6.png" alt="">
-                        </div>
+                    </div>
+                    <div class="images text-end">
+                        <img src="../imgs/entrepreneur-I.jpg" alt="">
+
+                        <img src="../imgs/entrepreneur-II.jpg" alt="">
+                    </div>
+                    <div class="images text-start">
+                        <img src="../imgs/entrepreneur-III.jpg" alt="">
+                        <img src="../imgs/entreprenuer.png" alt="">
                     </div>
                 </div>
             </div>
-            <div class="competency my-5">
-                <h1 class="text-center">Competency Training</h1>
-                <div class="table-container">
-                    <table class="table w-75 mx-auto table-striped table-hover">
-                        <thead>
-                            <tr>
-                                <th scope="col">Code</th>
-                                <th scope="col">Course Name</th>
-                                <th scope="col">Duration</th>
-                                <th scope="col">Start Date</th>
-                                <th scope="col">End Date</th>
-                                <th scope="col">Price</th>
 
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">GSEL01</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">CSM02</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">BCCC03</th>
-                                <td>Larry the Bird</td>
-                                <td>@twitter</td>
-                                <td>Larry the Bird</td>
-                                <td>@twitter</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">CTPS02</th>
-                                <td>Larry the Bird</td>
-                                <td>@twitter</td>
-                                <td>Larry the Bird</td>
-                                <td>@twitter</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class="row  my-5 px-lg-5 mx-0 ">
-                <div class="col-lg-6 justify-content-center align-items-center d-flex">
-                    <img class=" img-fluid" src="../imgs/Cert_Edu.png" alt="">
-                </div>
-                <div class="col-lg-6 pt-3 justify-content-center align-items-center d-flex">
-                    <img class=" img-fluid" src="../imgs/Cert_Edu.png" alt="">
-                </div>
-            </div>
         </div>
+
     </div>
-    <div class="contact bg-dark my-5">
+    <div class="contact" style="background-color: rgb(78, 2, 149);">
         <div class="row m-0 w-50 mx-auto">
             <div class="col-lg-6">
                 <ul class="list-unstyled mx-auto text-start py-lg-5">
@@ -431,7 +226,7 @@
             </div>
         </div>
     </div>
-    <div id="sponsors" class="py-5">
+    <div id="sponsors" class="py-4 px-2">
         <h1 class="text-center">Local & International Authority and Sponsors</h1>
         <div class="sponsors_container">
             <div class="sponsors_track d-inline-flex border-1 border-dark">
@@ -543,6 +338,7 @@
                 </div>
             </div>
         </div>
+        ,
         <div class="container-fluid footer-bottom p-0 m-0">
             <div class="row m-0 text-center">
                 <div class="col-lg-6 m-auto">
@@ -560,5 +356,3 @@
     <script src="../javascript//bootstrap.min.js"></script>
     <script src="../javascript/index.js"></script>
 </body>
-
-</html>

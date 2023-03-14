@@ -11,6 +11,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto&family=Source+Sans+Pro:wght@400;600;700;900&family=Ubuntu:wght@400;500;700&display=swap"
         rel="stylesheet">
+    <link type="image/png" sizes="96x96" rel="icon" href=".../icons8-security-configuration-96.png">
+    <!-- <link rel="shortcut icon" href="/imgs/favicon.ico" type="image/x-icon"> -->
     <!-- style stylesheet link  -->
     <link rel="stylesheet" href="../css//style.css">
     <link rel="stylesheet" href="../css//bootstrap.min.css">
@@ -36,49 +38,111 @@
         font-size: 3rem;
         font-weight: 800;
     }
+
+    #get_in_touch form .row {
+        margin: 90px !important;
+    }
 </style>
 
 <body>
     <div id="get_in_touch">
-        <div class="touch_heros d-flex justify-content-center align-items-center">
+        <div class="touch_heros px-lg-5 d-flex justify-content-center align-items-center">
             <div class="px-4">
-                <h1 class="text-white text-capitalize">CONTACT US</h1>
-                <p class="text-white w-75 fs-4">If you have any question, please complete the form below and we will get
+                <h1 class="text-white text-capitalize px-xl-5">CONTACT US</h1>
+                <p class="text-white w-75 fs-4 px-xl-5">If you have any question, please complete the form below and we
+                    will get
                     in touch with you as soon as possible..</p>
             </div>
         </div>
-        <form>
-            <div class="row m-0 p-0">
-                <div class="col-lg-6 col-md-6 col-sm-12 ms-3 my-4">
-                    <div class="form-group mt-lg-2">
-                        <strong><label for="name">Name <span class="text-danger">*</span></label></strong>
-                        <input type="text" class="form-control" placeholder="Enter Name">
-                    </div>
-                    <div class="form-group mt-lg-2">
-                        <strong><label for="email">Email <span class="text-danger">*</span></label></strong>
-                        <input type="email" class="form-control" placeholder="Enter Email">
-                    </div>
-                    <div class="form-group mt-lg-2">
-                        <strong><label for="number">Number</label></strong>
-                        <input type="number" class="form-control" placeholder="Optional">
-                    </div>
-                    <div class="form-group mt-lg-2">
-                        <strong><label for="name">Name <span class="text-danger">*</span></label></strong>
-                        <input type="text" class="form-control" placeholder="Enter Name">
-                    </div>
-                    <div class="form-group mt-lg-2">
-                        <strong><label for="message">Message <span class="text-danger">*</span></label></strong>
-                        <textarea name="" class="form-control" placeholder="Enter message or complain." id="" cols="30"
-                            rows="4"></textarea>
-                    </div>
-                    <button class="btn w-100 fs-4 btn-block btn-dark mt-4">Send Message</button>
-                </div>
-                <div class="col-lg-6 col-12">
 
+        <form>
+            <div class="row">
+                <div class="col-lg-6">
+
+
+
+                    <!-- Name input -->
+                    <div class="form-outline mb-4">
+                        <input type="text" id="form4Example1" class="form-control" />
+                        <label class="form-label" for="form4Example1">Name</label>
+                    </div>
+
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                        <input type="email" id="form4Example2" class="form-control" />
+                        <label class="form-label" for="form4Example2">Email address</label>
+                    </div>
+
+                    <!-- Message input -->
+                    <div class="form-outline mb-4">
+                        <textarea class="form-control" id="form4Example3" rows="4"
+                            placeholder="How can we help you?"></textarea>
+                        <label class="form-label" for="form4Example3">Message</label>
+                    </div>
+
+                    <!-- Checkbox -->
+                    <!-- <div class="form-check d-flex justify-content-center mb-4">
+                        <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+                        <label class="form-check-label" for="form4Example4">
+                            Send me a copy of this message
+                        </label>
+                    </div> -->
+
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+
+                </div>
+                <div class="col-lg-6">
+                    <div id="map" style="height: 400px;" class="w-100 h-100">
+
+                    </div>
                 </div>
             </div>
         </form>
     </div>
+    <!-- <script src="/javascript/bootstrap.min.js"></script> -->
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            const uluru = {
+                lat: 6.5244,
+                lng: 3.3792
+            };
+            // The map, centered at Uluru
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 8,
+                center: uluru,
+            });
+            addMarker({
+                lat: 6.4434,
+                lng: 3.3553
+            })
+            addMarker({
+                lat: 6.5352,
+                lng: 3.3490
+            })
+            // The marker, positioned at Uluru
+            function addMarker(coordin) {
+                const marker = new google.maps.Marker({
+                    position: coordin,
+                    map: map,
+                    icons: "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"
+                });
+                const windowInfo = new google.maps.windowInfo({
+                    content: "<h3>Ajif Lagos</h3>",
+                })
+                marker.addLitsener('click', function () {
+                    windowInfo.open(open, marker)
+                })
+            }
+        }
+
+        window.initMap = initMap;
+    </script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAS1gLlTD-qXKLZT-H67U5aEvz7UcCCnU&callback=initMap&v=weekly"
+        defer async></script>
 </body>
 
 </html>

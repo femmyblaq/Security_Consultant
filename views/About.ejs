@@ -1,0 +1,271 @@
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #about_us .security_heros {
+        height: 50vh;
+        width: 90%;
+        /* margin: auto 1.5rem; */
+        border-top-right-radius: 200px;
+        border-bottom-right-radius: 200px;
+        background-image: linear-gradient(to right, rgba(123, 55, 243), rgba(0, 0, 0, 0.7));
+    }
+
+    #about_us .security_heros h1 {
+        font-size: 3rem;
+        font-weight: 800;
+    }
+
+    #about_us_content {
+        margin: 40px 20px !important;
+    }
+
+    .about-content .row .col-lg-8 {
+        padding: 150px 90px;
+    }
+
+
+    /* */
+
+    .paragraph-lg {
+        font-size: 1.2rem;
+    }
+
+    #about_us .about-content .the-prof {
+        padding: 150px 90px;
+    }
+
+
+    @media (min-width: 315px) and (max-width: 480px) {
+        #about_us .security_heros {
+            width: 100%;
+        }
+
+        #about_us .security_heros h1 {
+            font-size: 1.5rem !important;
+            font-weight: 800;
+        }
+
+        #about_us .security_heros p {
+            font-size: 16px !important;
+            width: 100% !important;
+        }
+
+        #about_us_content .row {
+            margin: 30px 0 !important;
+        }
+
+        #about_us_content .other_consultancies .hr {
+            height: 20px;
+            width: 100% !important;
+        }
+
+        #about_us_content .images img {
+            width: 150px !important;
+            height: 100px !important;
+            padding: 3px;
+        }
+    }
+
+
+    @media (min-width: 540px) and (max-width: 720px) {
+        #about_us .security_heros {
+            width: 100%;
+        }
+
+        #about_us .security_heros h1 {
+            font-size: 2rem !important;
+        }
+
+        #about_us .security_heros p {
+            font-size: 18px !important;
+        }
+
+        #about_us_content .row {
+            margin: 30px 0 !important;
+        }
+
+        #about_us_content .other_consultancies .hr {
+            height: 20px;
+            width: 100% !important;
+        }
+
+        #about_us_content .images img {
+            width: 250px !important;
+            height: 200px !important;
+            padding: 3px;
+        }
+    }
+</style>
+<%- include("partials/preloaders") -%>
+<%- include("partials/header") -%>
+
+<body>
+    <!-- <div id="header" class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light px-lg-4 py-lg-3">
+
+            <div class="nav-brand">
+                <a href="" class="fs-2 fw-bolder text-decoration-none"><img src="../imgs/Seccon_logo_web.png"
+                        style="width: 130px;" alt=""> </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto d-flex justify-content-center align-items-center mb-lg-0">
+                    <li class=" nav-link"><a href="Home.html" class="link text-decoration-none text-dark">Home</a></li>
+                    <li class=" nav-link position-relative  "><a href=""
+                            class="text-dark link text-decoration-none">Services</a><i
+                            class="fa-solid fa-angle-down ms-4"></i>
+                        <div class="services-content  position-absolute">
+                            <ul class="p-2 bg-info d-none m-0 list-unstyled ">
+                                <li class="mt-2">
+                                    <a class="text-dark text-decoration-none m-0" href="about_us.html">Security
+                                        Consulting</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="text-dark text-decoration-none m-0"
+                                        href="Business_Consulting.html">Business Consulting</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="text-dark text-decoration-none m-0"
+                                        href="Education_Training.html">Education &
+                                        Training</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="text-dark text-decoration-none m-0"
+                                        href="Information_Service.html">Information
+                                        Service</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="text-dark text-decoration-none m-0"
+                                        href="Enterpreneur.html">Entreprenuership</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="text-dark text-decoration-none m-0" href="Software_Dev.html">Sofware
+                                        Development</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class=" nav-link"><a href="" class="link text-decoration-none text-dark">About Us</a></li>
+                    <li class=" nav-link"><a href="" class="link text-decoration-none text-dark">Contact</a></li>
+                    <li class=" nav-link"><button class="btn btn-dark rounded-0 btn-lg">GET IN TOUCH</button></li>
+                </ul>
+            </div>
+        </nav>
+    </div> -->
+    <div id="about_us">
+        <div class="security_heros px-3 d-flex justify-content-between align-items-center">
+            <div class="px-4">
+                <h1 class="text-white">Stay ahead with us!</h1>
+                <p class="text-white w-75 fs-4">Our services and processes are the benchmarks of global industry best
+                    practices. We can help your organisation plan, manage, develop, conduct, assess security gaps or
+                    review specialised security issues.</p>
+            </div>
+            <div class="img-container bg-secondary rounded-pill" style="height: 300px; width: 300px;">
+                <img style="height: 300px; width: 300px; clip-path: circle(50% at 50% 50%); object-fit: fill;"
+                    src="/imgs/pexels-pixabay-45208.jpg" alt="">
+            </div>
+        </div>
+        <div class="about-content">
+            <div class="row m-0">
+                <div class="col-lg-8">
+
+
+                    <h1>About US</h1>
+                    <p class="paragraph-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga accusamus sint
+                        quaerat
+                        libero quod ducimus
+                        vel expedita dolorem minus voluptas quia ad dicta tempore rerum, maiores similique quis
+                        dignissimos
+                        maxime, enim doloremque, nihil adipisci veniam! Veniam laudantium cum quos fugiat, assumenda
+                        delectus
+                        distinctio nam facilis numquam quia unde. Eaque minus iusto quidem soluta, debitis unde at
+                        praesentium
+                        excepturi saepe delectus, voluptatum error ipsam vitae ratione, beatae laudantium voluptates
+                        vero!
+                        Mollitia ab aliquam doloremque tenetur voluptatibus tempore sit, reprehenderit ratione culpa
+                        accusamus
+                        ipsa totam, eum harum veritatis dolorem aliquid amet praesentium nemo. Similique, magnam natus
+                        nam
+                        cupiditate architecto maiores eius impedit voluptatem in corporis at perferendis, officiis, esse
+                        atque
+                        assumenda! Repudiandae quis saepe veniam vitae. Culpa animi itaque amet ratione. Error porro
+                        fuga fugiat
+                        laboriosam rerum repellendus blanditiis qui, mollitia, vel provident sequi consectetur debitis
+                        atque
+                        dolorum, obcaecati fugit ipsam maiores velit dignissimos? Aspernatur facilis excepturi quibusdam
+                        possimus debitis fugit consectetur, perspiciatis hic ducimus nesciunt natus nobis. Quas magni
+                        saepe
+                        doloremque tenetur maiores eligendi expedita ea aperiam aliquid autem vero unde itaque pariatur
+                        corporis, nulla blanditiis. Laboriosam quo soluta error delectus? Quasi doloremque libero eaque,
+                        perferendis impedit velit voluptate, iusto exercitationem aliquid, vero quaerat pariatur
+                        perspiciatis.
+                        Quasi, sapiente. Nihil, quo magni!</p>
+
+                </div>
+            </div>
+            <!-- <div class="img-container bg-secondary rounded-pill m-auto" style="height: 200px; width: 150px;"></div> -->
+            <div class="the-prof">
+
+                <div class="row m-0">
+                    <div class="col-lg-12">
+                        <p class="paragraph-lg"><img class="me-4"
+                                style="float: left; width: 300px; border-radius: 180px;" src="/imgs/linkedin-img.png"
+                                alt="">
+                            Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit. Architecto saepe in reiciendis vitae culpa aut
+                            nesciunt esse voluptatem, dolorem iure nulla earum quidem maiores recusandae corporis modi
+                            alias
+                            praesentium voluptatibus temporibus tempora odio repudiandae! Provident quibusdam
+                            perferendis
+                            veniam
+                            iure cumque corporis cum quo dolorem minima, omnis pariatur aut iste nostrum illo molestias
+                            ea
+                            quis
+                            maxime inventore sunt ullam? Natus, aut?</p>
+                        <p class="paragraph-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos totam
+                            nesciunt ducimus amet
+                            officia
+                            consectetur. Id, accusamus quam nihil optio, quo praesentium omnis eius eos, temporibus
+                            placeat
+                            ea
+                            quod fugiat? Lorem ipsum dolor sit, amet consectetur adipisicing elit. A eos eaque saepe, ex
+                            exercitationem adipisci totam libero eveniet vel illo! Quod, debitis atque qui laudantium
+                            aliquid
+                            adipisci minus officia rem.</p>
+
+                        <p class="paragraph-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque rerum
+                            quaerat et vitae harum illo
+                            fugiat odit quo molestiae! Cupiditate sapiente dignissimos provident quasi ullam
+                            reprehenderit
+                            consequuntur quae? Fugiat ipsam porro delectus doloremque amet eligendi ut eos molestiae
+                            quisquam illo. e harum illo
+                            fugiat odit quo molestiae! Cupiditate sapiente dignissimos provident quasi ullam
+                            reprehenderit
+                            consequuntur quae? Fugiat ipsam porro delectus doloremque amet eligendi ut eos molestiae
+                            quisquam illo. e harum illo
+                            fugiat odit quo molestiae! Cupiditate sapiente dignissimos provident quasi ullam
+                            reprehenderit
+                            consequuntur quae? Fugiat ipsam porro delectus doloremque amet eligendi ut eos molestiae
+                            quisquam illo. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <%- include("partials/footer") -%>
+
+
+    <script src="../javascript//bootstrap.min.js"></script>
+    <script src="../javascript/index.js"></script>
+</body>
+
+</html>

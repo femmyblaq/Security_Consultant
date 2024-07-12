@@ -1,0 +1,426 @@
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #education_training .security_heros {
+        height: 50vh;
+        width: 90%;
+        /* margin: auto 1.5rem; */
+        border-top-right-radius: 200px;
+        border-bottom-right-radius: 200px;
+        background-image: linear-gradient(to right, rgba(123, 55, 243), rgba(0, 0, 0, 0.7));
+    }
+
+    #education_training .security_heros h1 {
+        font-size: 3rem;
+        font-weight: 800;
+    }
+
+    #education_logo .card {
+        flex-direction: row !important;
+        margin: 5rem auto !important;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 700px;
+    }
+
+    #education_training_content .row {
+        margin: 140px 70px !important;
+    }
+
+    .paragraph-lg,
+    ul .li {
+        font-size: 1.2rem;
+        margin: 20px 0;
+    }
+
+    #education_training_content .images img {
+        width: 300px;
+        height: 200px;
+        padding: 5px;
+    }
+
+    @media (min-width: 215px) and (max-width: 314px) {
+        #education_training .security_heros {
+            width: 100% !important;
+            padding: 0 !important;
+        }
+
+        #education_training .security_heros h1 {
+            font-size: 1rem !important;
+            font-weight: 800;
+        }
+
+        #education_training .security_heros p {
+            font-size: 14px !important;
+            width: 100% !important;
+        }
+
+        #education_training_content {
+            margin: 30px 10px !important;
+        }
+
+        #education_training_content .row {
+            margin: 20px 0 !important;
+        }
+
+        #education_logo .card {
+            flex-direction: column !important;
+            margin: 2.5rem auto !important;
+            padding: 10px !important;
+            left: 0% !important;
+            transform: translateX(0%) !important;
+            width: 100% !important;
+        }
+
+        #education_logo .edu_logo img {
+            width: 200px !important;
+        }
+
+        #education_logo .card p {
+            font-size: 1rem !important;
+        }
+
+        #education_training_content img {
+            width: 100% !important;
+            height: 100% !important;
+            padding: 3px;
+        }
+
+        .contact .row {
+            width: 100% !important;
+        }
+    }
+
+    @media (min-width: 315px) and (max-width: 480px) {
+        #education_training .security_heros {
+            width: 100%;
+            padding: 0 !important;
+
+        }
+
+        #education_training .security_heros h1 {
+            font-size: 1.5rem !important;
+            font-weight: 800;
+        }
+
+        #education_training .security_heros p {
+            font-size: 16px !important;
+            width: 100% !important;
+        }
+
+        #education_training_content {
+            margin: 30px 10px !important;
+        }
+
+        #education_training_content .row {
+            margin: 20px 0 !important;
+        }
+
+        #education_logo .card {
+            flex-direction: column !important;
+            margin: 2.5rem auto !important;
+            left: 4% !important;
+            transform: translateX(0%) !important;
+            width: 90% !important;
+        }
+
+        #education_logo .edu_logo img {
+            width: 250px !important;
+        }
+
+        #education_logo .card p {
+            font-size: 1rem !important;
+        }
+
+        #education_training_content .images img {
+            width: 150px !important;
+            height: 100px !important;
+            padding: 3px;
+        }
+
+        .competency .table-container {
+            width: 100%;
+            padding: 20px 15px;
+            overflow-x: scroll;
+        }
+
+        .contact .row {
+            width: 100% !important;
+        }
+    }
+
+    @media (min-width: 481px) and (max-width: 780px) {
+        #education_training .security_heros {
+            width: 100%;
+        }
+
+        #education_training .security_heros h1 {
+            font-size: 1.5rem !important;
+            font-weight: 800;
+        }
+
+        #education_training .security_heros p {
+            font-size: 16px !important;
+            width: 100% !important;
+        }
+
+        #education_training_content {
+            margin: 30px 10px !important;
+        }
+
+        #education_training_content .row {
+            margin: 20px 0 !important;
+        }
+
+        #education_logo .card {
+            flex-direction: column !important;
+            margin: 2.5rem auto !important;
+            left: 4% !important;
+            transform: translateX(0%) !important;
+            width: 90% !important;
+        }
+
+        #education_logo .edu_logo img {
+            width: 250px !important;
+        }
+
+        #education_logo .card p {
+            font-size: 1rem !important;
+        }
+
+        #education_training_content .images img {
+            width: 150px !important;
+            height: 100px !important;
+            padding: 3px;
+        }
+    }
+</style>
+<%- include("partials/preloaders") -%>
+
+<%- include("partials/header") -%>
+
+<body>
+    <div id="education_training">
+        <div class="security_heros px-5 d-flex justify-content-center align-items-center">
+            <div class="px-4">
+                <h1 class="text-white text-capitalize">EDUCATION & TRAINING CONSULTING</h1>
+                <p class="text-white w-75 fs-4">Seccons provides business education management & consulting, business
+                    support and service provider, we shall also be offering range of business solutions. Our array of
+                    services would have synergy to support each other, especially at the inception of the business.</p>
+            </div>
+        </div>
+        <div id="education_logo" class="row my-5 mx-0">
+            <div class="col-12 mx-auto">
+                <div class="card shadow p-lg-4 d-inline-flex">
+                    <div class="edu_logo text-center">
+                        <img class="" src="../imgs/Education_logo.png" alt="">
+                    </div>
+                    <div class="card-body">
+                        <p style="font-size: 20px;">
+                            All courses are developed and reviewed annually by subject matter experts, to meet current
+                            skill
+                            gap. Also, the courses are accredited by globally recognised academic and professional
+                            institutions, and delivered by verified instructors.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="education_training_content">
+            <div class="row my-3 mx-4 p-0">
+                <div class="col-lg-12">
+                    <h1 class="text-lead fw-light">What does <br><span class="fw-bolder">Education & Training
+                            <br></span>do?</h1>
+                    <p class="paragraph-lg">We offer specialised professional compentency skill training in operational,
+                        management and
+                        strategic security risk management. In addition, entrepreneurship, business development, career
+                        mentorship, critical thinking and problem solving skills, e.t.c. The trainers are verified,
+                        experienced and assigned based on area of competence. The learning modules are structured to
+                        give you the desired learning experience and value for your money. For your convenience, we
+                        conduct on-site executive class room trainings, in-house trainings, correspondence, virtual
+                        learning, e.t.c.</p>
+                    <h5>Typical duties include:</h5>
+                    <ul>
+                        <li class="li">Serve as an advisor for teachers, parents, school administrators, school boards,
+                            and
+                            class="li" government officials</li>
+                        <li class="li">Assess education standards and classroom policies, as well as grades and test
+                            scores</li>
+                        <li class="li">Help implement changes to curriculum based on data</li>
+                        <li class="li">Survey students to change programs or curriculum</li>
+                        <li class="li">Report on the effectiveness of current academic systems</li>
+                        <li class="li">Devise strategies to improve educational quality and help implement new policies
+                        </li>
+                        <li class="li">Design new training programs and offer teacher training workshops</li>
+                        <li class="li">Recommend different educational materials</li>
+                        <li class="li">Implement and guide usage of new technologies</li>
+                        <li class="li">Assist in correlating systems to improve student drop-out rates</li>
+                        <li class="li">Advise academic intervention programs</li>
+                        <li class="li">Supervise online education</li>
+                        <li class="li">Guide college selection and application</li>
+                        <li class="li">Match students to appropriate learning environments, such as special education
+                            programs</li>
+                        <li class="li">Meet with administrators and teachers to discuss programs and budgets</li>
+                    </ul>
+                </div>
+                <div class="col-lg-12 p-0 py-4 d-flex">
+                    <div class="shape">
+                    </div>
+                    <div class=" m-auto">
+                        <div class="images text-end">
+                            <img src="../imgs/EducationConsultancy2.png" alt="">
+
+                            <img src="../imgs/EducationConsultancy.png" alt="">
+                        </div>
+                        <div class="images text-start">
+                            <img src="../imgs/SecurityImg_3.jpg.png" alt="">
+                            <img src="../imgs/SecurityImg_6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="competency my-5">
+                <h1 class="text-center">Competency Training</h1>
+                <div class="table-container">
+                    <table class="table w-75 mx-auto table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">Code</th>
+                                <th scope="col">Course Name</th>
+                                <th scope="col">Duration</th>
+                                <th scope="col">Start Date</th>
+                                <th scope="col">End Date</th>
+                                <th scope="col">Price</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">GSEL01</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">CSM02</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">BCCC03</th>
+                                <td>Larry the Bird</td>
+                                <td>@twitter</td>
+                                <td>Larry the Bird</td>
+                                <td>@twitter</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">CTPS02</th>
+                                <td>Larry the Bird</td>
+                                <td>@twitter</td>
+                                <td>Larry the Bird</td>
+                                <td>@twitter</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row  my-5 px-lg-5 mx-0 ">
+                <div class="col-lg-6 justify-content-center align-items-center d-flex">
+                    <img class=" img-fluid" src="../imgs/Cert_Edu.png" alt="">
+                </div>
+                <div class="col-lg-6 pt-3 justify-content-center align-items-center d-flex">
+                    <img class=" img-fluid" src="../imgs/Cert_Edu.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact bg-dark my-5">
+        <div class="row m-0 w-50 mx-auto">
+            <div class="col-lg-6">
+                <ul class="list-unstyled mx-auto text-start py-lg-5">
+                    <li class="text-white my-3 fs-5"><img src="/imgs/icons8-phone-50.png" class="me-4"
+                            style="width: 30px;" alt=""> + 234
+                        9016290149
+                    </li>
+                    <li class="text-white my-3 fs-5"><img src="/imgs/icons8-message-read-60.png" class="me-4"
+                            style="width: 30px;" alt="">
+                        info@seccon.com</li>
+                    <li class="text-white my-3 fs-5"><img src="/imgs/icons8-visit-50.png" class="me-4"
+                            style="width: 30px;" alt=""> Lagos Nigeria.
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <div class="mx-auto text-center py-lg-5">
+                    <h5 class="text-light">Thank you for visiting, If by all means you needed to contact us
+                        directly.</h5>
+                    <button class="rounded-0 mt-lg-4 btn btn-outline-light btn-lg">Get In Touch</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sponsors" class="py-5">
+        <h1 class="text-center">Local & International Authority and Sponsors</h1>
+        <div class="sponsors_container">
+            <div class="sponsors_track d-inline-flex border-1 border-dark">
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/isa.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/itf.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/wc.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/icest.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/cmc_logo_jpeg_blue.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/asis-1.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/cpp-certified-protection-professional.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/itf.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/wcichsp.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/ic.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="nav w-25 d-sm-none">
+                <button class="prev">
+                    <i class="fa-solid fa-arrow-left-long"></i>
+                </button>
+                <button class="next"><i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <%- include("partials/footer") -%>
+
+    <script src="../javascript//bootstrap.min.js"></script>
+    <script src="../javascript/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,425 @@
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #get_in_touch .touch_heros {
+        height: 50vh;
+        width: 90%;
+        /* margin: auto 1.5rem; */
+        border-top-right-radius: 200px;
+        border-bottom-right-radius: 200px;
+        background-image: linear-gradient(to right, rgba(123, 55, 243), rgba(0, 0, 0, 0.7));
+    }
+
+    #get_in_touch .touch_heros h1 {
+        font-size: 3rem;
+        font-weight: 800;
+    }
+
+    #get_in_touch .jumbotron {
+        padding: 150px 45px;
+    }
+
+    #get_in_touch>.row .pop-out {
+        background-image: linear-gradient(to right, rgb(6, 152, 250), rgba(0, 0, 0, 0.7));
+        padding: 20px;
+        border-bottom-left-radius: 250px;
+        border-top-left-radius: 250px;
+    }
+
+    #get_in_touch>.row .pop-out .inner {
+        padding: 20px;
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: #63c7f6;
+    }
+
+    #get_in_touch>.row .pop-out img {
+        width: 290px;
+        height: 200px;
+        clip-path: circle(40%);
+    }
+
+    #get_in_touch form {
+        margin: 90px !important;
+    }
+
+    #get_in_touch form .error-message {
+        font-size: .85rem;
+        color: red;
+        border-bottom: 2px solid red !important;
+    }
+
+    #get_in_touch form .btn {
+        border-radius: 50px;
+    }
+
+    #get_in_touch form .form-control {
+        border: none !important;
+        border-bottom-style: dotted !important;
+        box-shadow: none !important;
+        border-bottom: 2px solid #acaaaa !important;
+    }
+
+    #get_in_touch form .form-control:focus {
+        /* border: none !important; */
+        border-bottom-color: rgb(30, 30, 30) !important;
+    }
+
+    @media (min-width: 315px) and (max-width: 480px) {
+        #get_in_touch .touch_heros {
+            width: 100%;
+        }
+
+        #get_in_touch .touch_heros h1 {
+            font-size: 2rem !important;
+            font-weight: 800;
+        }
+
+        #get_in_touch .touch_heros p {
+            font-size: 18px !important;
+            width: 100% !important;
+        }
+
+        #get_in_touch_content .row {
+            margin: 30px 0 !important;
+        }
+
+        #get_in_touch .jumbotron {
+            padding: 120px 0px;
+        }
+
+        #get_in_touch .jumbotron .container {
+            padding: 0 !important;
+        }
+
+        #get_in_touch_content .other_consultancies .hr {
+            height: 20px;
+            width: 100% !important;
+        }
+
+        #get_in_touch_content .images img {
+            width: 150px !important;
+            height: 100px !important;
+            padding: 3px;
+        }
+
+        #get_in_touch form {
+            margin: 50px 20px !important;
+        }
+
+        #get_in_touch form #map {
+            margin-top: 30px;
+            width: 330px !important;
+            height: 300px !important;
+        }
+    }
+
+
+    @media (min-width: 540px) and (max-width: 720px) {
+        #get_in_touch .touch_heros {
+            width: 100%;
+        }
+
+        #get_in_touch .touch_heros h1 {
+            font-size: 3rem !important;
+        }
+
+        #get_in_touch .touch_heros p {
+            font-size: 18px !important;
+        }
+
+        #get_in_touch_content .row {
+            margin: 30px 0 !important;
+        }
+
+        #get_in_touch_content .other_consultancies .hr {
+            height: 20px;
+            width: 100% !important;
+        }
+
+        #get_in_touch_content .images img {
+            width: 250px !important;
+            height: 200px !important;
+            padding: 3px;
+        }
+    }
+</style>
+<%- include("partials/preloaders") -%>
+<%- include("partials/header") -%>
+
+
+<body>
+    <div id="get_in_touch">
+        <div class="touch_heros px-lg-4 d-flex justify-content-center align-items-center">
+            <div class="px-4">
+                <h1 class="text-white text-capitalize px-xl-5">CONTACT US</h1>
+                <p class="text-white w-75 fs-4 px-xl-5">If you have any question, please complete the form below and we
+                    will get
+                    in touch with you as soon as possible..</p>
+            </div>
+        </div>
+        <div class="row m-0">
+            <div class="col-lg-6">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h1 class="display-4">Fluid jumbotron</h1>
+                        <p class="lead">Complete the form below to reach us or on any of the social media below.</p>
+                        <div>
+                            <p class="mt-3">
+                                Ajegunle Apapa, Lagos, Nigeria.
+                            </p>
+                            <p><span class="fw-bold">Email:</span> info@onlineLibrary.com</p>
+                            <p><i class="fas fa-phone me-2"></i> +2349016290149</p>
+                            <p><i class="fab fa-whatsapp me-2"></i> +2349016290149</p>
+                            <ul class="list-unstyled d-flex d-inline-row m-0">
+                                <li class=""><i class="fab fa-facebook fa-2x pe-3 pt-3"></i></li>
+                                <li class=""><i class="fab fa-instagram fa-2x p-3"></i></li>
+                                <li class=""><i class="fab fa-linkedin-in fa-2x p-3"></i></li>
+                                <li class=""><i class="fab fa-google fa-2x p-3"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mt-auto">
+                <div class="pop-out">
+                    <div class="inner">
+                        <img src="/imgs/pexels-julian-vera-film-3828833.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <form class="form" action="/contact" method="post">
+            <% if(typeof alert  != 'undefined') { %>
+            <% alert.forEach(function(error) { %>
+
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <p><%= error.msg %></p>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <%})%>
+            <% } %>
+            <div class="row ">
+                <div class="col-lg-6">
+
+
+                    <h5 class="mb-4 fw-lighter">Get In Touch</h5>
+                    <div class="row m-0">
+                        <div class="col-lg-6 ps-0 pe-1">
+
+                            <!-- Name input -->
+                            <div class="form-outline mb-3">
+                                <input name="fname" id="username" type="text" id="form4Example1"
+                                    class="form-control paragraph-lg p-2 fn" placeholder="First Name" />
+                                <!-- <label class="form-label" for="form4Example1">First Name</label> -->
+
+                            </div>
+                        </div>
+                        <div class="col-lg-6 pe-0 ps-1">
+
+                            <!-- Name input -->
+                            <div class="form-outline mb-3">
+                                <input name="lname" id="username" type="text" id="form4Example1"
+                                    class="form-control paragraph-lg p-2" placeholder="Last Name" />
+                                <!-- <label class="form-label" for="form4Example1">Last Name</label> -->
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Email input -->
+                    <div class="form-outline mb-3">
+                        <input name="email" id="email" type="email" id="form4Example2"
+                            class="form-control paragraph-lg p-2" placeholder="Email" />
+                        <!-- <label class="form-label" for="form4Example2">Email address</label> -->
+                    </div>
+
+                    <!-- Message input -->
+                    <div class="form-outline mb-3">
+                        <textarea name="message" id="username" class="form-control paragraph-lg p-2" id="form4Example3"
+                            rows="4" placeholder="How can we help you?"></textarea>
+                        <!-- <label class="form-label" for="form4Example3">Message</label> -->
+                    </div>
+
+                    <!-- Checkbox -->
+                    <!-- <div class="form-check d-flex justify-content-center mb-4">
+                        <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+                        <label class="form-check-label" for="form4Example4">
+                            Send me a copy of this message
+                        </label>
+                    </div> -->
+
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary btn-block my-4 w-100">Send</button>
+
+                </div>
+                <div class="col-lg-6">
+                    <div id="map" style="height: 400px;" class="w-100 h-100">
+
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <%- include("partials/footer") -%>
+
+    <!-- <script src="/javascript/bootstrap.min.js"></script> -->
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            const uluru = {
+                lat: 6.5244,
+                lng: 3.3792
+            };
+            // The map, centered at Uluru
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 8,
+                center: uluru,
+            });
+            addMarker({
+                lat: 6.4434,
+                lng: 3.3553
+            })
+            addMarker({
+                lat: 6.5352,
+                lng: 3.3490
+            })
+            // The marker, positioned at Uluru
+            function addMarker(coordin) {
+                const marker = new google.maps.Marker({
+                    position: coordin,
+                    map: map,
+                    icons: "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"
+                });
+                const windowInfo = new google.maps.windowInfo({
+                    content: "<h3>Ajif Lagos</h3>",
+                })
+                marker.addLitsener('click', function () {
+                    windowInfo.open(open, marker)
+                })
+            }
+        }
+
+        window.initMap = initMap;
+
+        class FormValidator {
+            constructor(form, fields) {
+                this.form = form
+                this.fields = fields
+            }
+
+            initialize() {
+                this.validateOnEntry()
+                this.validateOnSubmit()
+            }
+
+            validateOnSubmit() {
+                let self = this
+
+                this.form.addEventListener('submit', e => {
+                    e.preventDefault()
+                    self.fields.forEach(field => {
+                        const input = document.querySelector(`#${field}`)
+                        self.validateFields(input)
+                    })
+                })
+            }
+
+            validateOnEntry() {
+                let self = this
+                this.fields.forEach(field => {
+                    const input = document.querySelector(`#${field}`)
+
+                    input.addEventListener('input', event => {
+                        self.validateFields(input)
+                    })
+                })
+            }
+
+            validateFields(field) {
+
+                // Check presence of values
+                if (field.value.trim() === "") {
+                    this.setStatus(field, `${field.previousElementSibling.innerText} cannot be blank`, "error")
+                } else {
+                    this.setStatus(field, null, "success")
+                }
+
+                // check for a valid email address
+                if (field.type === "email") {
+                    const re = /\S+@\S+\.\S+/
+                    if (re.test(field.value)) {
+                        this.setStatus(field, null, "success")
+                    } else {
+                        this.setStatus(field, "Please enter valid email address", "error")
+                    }
+                }
+
+                // Password confirmation edge case
+                if (field.id === "password_confirmation") {
+                    const passwordField = this.form.querySelector('#password')
+
+                    if (field.value.trim() == "") {
+                        this.setStatus(field, "Password confirmation required", "error")
+                    } else if (field.value != passwordField.value) {
+                        this.setStatus(field, "Password does not match", "error")
+                    } else {
+                        this.setStatus(field, null, "success")
+                    }
+                }
+            }
+
+            setStatus(field, message, status) {
+                const successIcon = field.parentElement.querySelector('.icon-success')
+                const errorIcon = field.parentElement.querySelector('.icon-error')
+                const errorMessage = field.parentElement.querySelector('.error-message')
+
+                if (status === "success") {
+                    if (errorIcon) {
+                        errorIcon.classList.add('hidden')
+                    }
+                    if (errorMessage) {
+                        errorMessage.innerText = ""
+                    }
+                    successIcon.classList.remove('hidden')
+                    field.classList.remove('input-error')
+                }
+
+                if (status === "error") {
+                    if (successIcon) {
+                        successIcon.classList.add('hidden')
+                    }
+                    field.parentElement.querySelector('.error-message').innerText = message
+                    errorIcon.classList.remove('hidden')
+                    field.classList.add('input-error')
+                }
+            }
+        }
+
+        const form = document.querySelector('.form')
+        const fields = ["username", "email", "password", "password_confirmation"]
+
+        const validator = new FormValidator(form, fields)
+        validator.initialize()
+    </script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAS1gLlTD-qXKLZT-H67U5aEvz7UcCCnU&callback=initMap&v=weekly"
+        defer async></script>
+    <script src="../javascript//bootstrap.min.js"></script>
+    <script src="../javascript/index.js"></script>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAS1gLlTD-qXKLZT-H67U5aEvz7UcCCnU&callback=initMap&v=weekly"
+        defer></script>
+</body>
+<script src="/javascript/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,386 @@
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #security_consulting .security_heros {
+        height: 50vh;
+        width: 90%;
+        /* margin: auto 1.5rem; */
+        border-top-right-radius: 200px;
+        border-bottom-right-radius: 200px;
+        background-image: linear-gradient(to right, rgba(123, 55, 243), rgba(0, 0, 0, 0.7));
+    }
+
+    #security_consulting .security_heros h1 {
+        font-size: 3rem;
+        font-weight: 800;
+    }
+
+    #security_consulting_content {
+        margin: 40px 20px !important;
+    }
+
+    #security_consulting_content .row {
+        margin: 140px 70px !important;
+    }
+
+    #security_consulting_content .other_consultancies .hr {
+        height: 30px;
+        width: 98%;
+        margin-left: -20px;
+        border-top-right-radius: 200px;
+        border-bottom-right-radius: 200px;
+        background-image: linear-gradient(to right, rgba(123, 55, 243), rgba(0, 0, 0, 0.7));
+    }
+
+    #security_consulting_content .images img {
+        width: 300px;
+        height: 200px;
+        padding: 5px;
+    }
+
+    .paragraph-lg {
+        font-size: 1.2rem;
+    }
+
+
+    @media (min-width: 315px) and (max-width: 480px) {
+        #security_consulting .security_heros {
+            width: 100%;
+            padding: 0 !important;
+        }
+
+        #security_consulting .security_heros h1 {
+            font-size: 1.5rem !important;
+            font-weight: 800;
+        }
+
+        #security_consulting .security_heros p {
+            font-size: 16px !important;
+            width: 100% !important;
+        }
+
+        #security_consulting_content .row {
+            margin: 30px 0 !important;
+        }
+
+        #security_consulting_content .other_consultancies .hr {
+            height: 20px;
+            width: 100% !important;
+        }
+
+        #security_consulting_content .images img {
+            width: 150px !important;
+            height: 100px !important;
+            padding: 3px;
+        }
+
+        .contact .row {
+            width: 100% !important;
+        }
+    }
+
+
+    @media (min-width: 540px) and (max-width: 720px) {
+        #security_consulting .security_heros {
+            width: 100%;
+        }
+
+        #security_consulting .security_heros h1 {
+            font-size: 2rem !important;
+        }
+
+        #security_consulting .security_heros p {
+            font-size: 18px !important;
+        }
+
+        #security_consulting_content .row {
+            margin: 30px 0 !important;
+        }
+
+        #security_consulting_content .other_consultancies .hr {
+            height: 20px;
+            width: 100% !important;
+        }
+
+        #security_consulting_content .images img {
+            width: 250px !important;
+            height: 200px !important;
+            padding: 3px;
+        }
+
+        .contact .row {
+            width: 100% !important;
+        }
+    }
+</style>
+
+<%- include("partials/preloaders") -%>
+
+<%- include("partials/header") -%>
+
+<body>
+    <div id="security_consulting">
+        <div class="security_heros px-5 d-flex justify-content-center align-items-center">
+            <div class="px-4">
+                <h1 class="text-white">SECURITY CONSULTING</h1>
+                <p class="text-white w-75 fs-4">Seccon Security Company is a professional security firm that provides
+                    services such as specialised security issues, fire and life safety system, CCTV installation and
+                    general consultancy service.</p>
+            </div>
+        </div>
+        <div id="security_consulting_content">
+            <div class="row my-5 mx-4 p-0">
+                <div class="col-lg-6 p-0">
+                    <h1 class="text-lead fw-light">What does <br><span class="fw-bolder">Security Consultant
+                            <br></span>do?</h1>
+                    <p class="paragraph-lg">A Security Consultant works as an advisor and supervisor for all security
+                        measures necessary to
+                        effectively protect a company or client’s assets. Security Consultants use their knowledge and
+                        expertise to assess possible security threats and breaches in order to prevent them and create
+                        contingency protocols and plans for when violations occur.
+
+
+                        Security Consultants can work as part of the staff of a company, usually as Head of Security or
+                        other managing positions, or they can work as part of a Security Agency providing help and
+                        expertise to third parties. Security Consulting Agencies usually work with medium or small
+                        businesses and with individuals looking to protect their personal assets.
+
+
+                        The work field of a Security Consultant covers a wide range of Security related jobs, including
+                        the protection of property, financial assets, valuable objects, people, and information.
+                        Security Consultants coordinate an entire team of security specialists (e.g. Cyber Security
+                        Specialists, Bodyguards, and Security Guards) to provide a wide range of protection and
+                        defensive measures.</p>
+                </div>
+                <div class="col-lg-6 p-0 d-inline-flex align-items-center">
+                    <div class="shape">
+
+                    </div>
+                    <div class="images text-end">
+                        <img src="../imgs/SecurityImg_5.png" alt="">
+
+                        <img src="../imgs/SecurityImg_4.png" alt="">
+                    </div>
+                    <div class="images text-start">
+                        <img src="../imgs/SecurityImg_3.jpg.png" alt="">
+                        <img src="../imgs/SecurityImg_6.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="other_consultancies">
+                <div class="hr"></div>
+                <div class="row my-5 mx-4">
+                    <h1 class="mb-3 text-center">Other services</h1>
+                    <div class="col-lg-3 .col-md-4 cards">
+                        <div class="card rounded-0 mt-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Specialised Security Issues</h5>
+                                <p class="card-text">
+                                    Security assessments, threat assessments, risk assessments, geographically focused
+                                    threat/risk categorisation strategies, independent regulatory and organisational
+                                    security policy compliance audits, assessments of your suppliers/vendors/logistics
+                                    partners, e.t.c.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <span class="arrow-link "><i class="fa-solid fa-arrow-right-long"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 .col-md-4 cards">
+                        <div class="card rounded-0 mt-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Fire and Life Safety Systems</h5>
+                                <p class="card-text">
+                                    Security assessments, threat assessments, risk assessments, geographically focused
+                                    threat/risk categorisation strategies, independent regulatory and organisational
+                                    security policy compliance audits, assessments of your suppliers/vendors/logistics
+                                    partners, e.t.c.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <span class="arrow-link "><i class="fa-solid fa-arrow-right-long"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 .col-md-4 cards">
+                        <div class="card rounded-0 mt-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Security Training Development and Delivery</h5>
+                                <p class="card-text">
+                                    Security assessments, threat assessments, risk assessments, geographically focused
+                                    threat/risk categorisation strategies, independent regulatory and organisational
+                                    security policy compliance audits, assessments of your suppliers/vendors/logistics
+                                    partners, e.t.c.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <span class="arrow-link "><i class="fa-solid fa-arrow-right-long"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 .col-md-4 cards">
+                        <div class="card rounded-0 mt-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Assessments and Reporting</h5>
+                                <p class="card-text">
+                                    Security assessments, threat assessments, risk assessments, geographically focused
+                                    threat/risk categorisation strategies, independent regulatory and organisational
+                                    security policy compliance audits, assessments of your suppliers/vendors/logistics
+                                    partners, e.t.c.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <span class="arrow-link "><i class="fa-solid fa-arrow-right-long"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="hr w-75"></div>
+                <div class="row my-4 mx-4">
+                    <div class="col-lg-3 .col-md-4 cards">
+                        <div class="card rounded-0 mt-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Security Officers Planning and Deployment</h5>
+                                <p class="card-text">
+                                    Security assessments, threat assessments, risk assessments, geographically
+                                    focused
+                                    threat/risk categorisation strategies, independent regulatory and organisational
+                                    security policy compliance audits, assessments of your
+                                    suppliers/vendors/logistics
+                                    partners, e.t.c.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <span class="arrow-link "><i class="fa-solid fa-arrow-right-long"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 .col-md-4 cards">
+                        <div class="card rounded-0 mt-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Operational Security Planning</h5>
+                                <p class="card-text">
+                                    Security assessments, threat assessments, risk assessments, geographically
+                                    focused
+                                    threat/risk categorisation strategies, independent regulatory and organisational
+                                    security policy compliance audits, assessments of your
+                                    suppliers/vendors/logistics
+                                    partners, e.t.c.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <span class="arrow-link "><i class="fa-solid fa-arrow-right-long"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 .col-md-4 cards">
+                        <div class="card rounded-0 mt-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Architectural and Security Systems Design</h5>
+                                <p class="card-text">
+                                    Security assessments, threat assessments, risk assessments, geographically
+                                    focused
+                                    threat/risk categorisation strategies, independent regulatory and organisational
+                                    security policy compliance audits, assessments of your
+                                    suppliers/vendors/logistics
+                                    partners, e.t.c.
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <span class="arrow-link "><i class="fa-solid fa-arrow-right-long"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" style="background-color: rgb(78, 2, 149);">
+        <div class="row m-0 w-50 mx-auto">
+            <div class="col-lg-6 col-md-6 m-auto">
+                <ul class="list-unstyled mx-auto text-start py-lg-5">
+                    <li class="text-white my-3 fs-5"><img src="/imgs/icons8-phone-50.png" class="me-4"
+                            style="width: 30px;" alt=""> + 234
+                        9016290149
+                    </li>
+                    <li class="text-white my-3 fs-5"><img src="/imgs/icons8-message-read-60.png" class="me-4"
+                            style="width: 30px;" alt="">
+                        info@seccon.com</li>
+                    <li class="text-white my-3 fs-5"><img src="/imgs/icons8-visit-50.png" class="me-4"
+                            style="width: 30px;" alt=""> Lagos Nigeria.
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-6 col-md-6 m-auto">
+                <div class="mx-auto text-center py-lg-5">
+                    <h5 class="text-light">Thank you for visiting, If by all means you needed to contact us
+                        directly.</h5>
+                    <button class="rounded-0 mt-lg-4 btn btn-outline-light btn-lg">Get In Touch</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sponsors">
+        <h1 class="text-center">Local & International Authority and Sponsors</h1>
+        <div class="sponsors_container">
+            <div class="sponsors_track d-inline-flex border-1 border-dark">
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/isa.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/itf.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/wc.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/icest.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/cmc_logo_jpeg_blue.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/asis-1.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/cpp-certified-protection-professional.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/itf.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/wcichsp.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/ic.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="nav w-25 d-sm-none">
+                <button class="prev">
+                    <i class="fa-solid fa-arrow-left-long"></i>
+                </button>
+                <button class="next"><i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <%- include("partials/footer") -%>
+
+
+    <script src="../javascript//bootstrap.min.js"></script>
+    <script src="../javascript/index.js"></script>
+</body>
+
+</html>

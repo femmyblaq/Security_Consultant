@@ -1,0 +1,324 @@
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #software_development .software_heros {
+        height: 50vh;
+        width: 90%;
+        /* margin: auto 1.5rem; */
+        border-top-right-radius: 200px;
+        border-bottom-right-radius: 200px;
+        padding: 0 40px;
+        background-image: linear-gradient(to right, rgba(123, 55, 243), rgba(0, 0, 0, 0.7));
+    }
+
+    #software_development .software_heros h1 {
+        font-size: 3rem;
+        font-weight: 800;
+    }
+
+    #software_development_content {
+        margin: 40px 20px !important;
+    }
+
+    #software_development_content .row {
+        margin: 140px 70px !important;
+    }
+
+    #software_development_content .other_consultancies .hr {
+        height: 30px;
+        width: 98%;
+        margin-left: -20px;
+        border-top-right-radius: 200px;
+        border-bottom-right-radius: 200px;
+        background-image: linear-gradient(to right, rgba(123, 55, 243), rgba(0, 0, 0, 0.7));
+    }
+
+    #software_development_content .images img {
+        width: 300px;
+        height: 200px;
+        padding: 5px;
+    }
+
+    .paragraph-lg,
+    ul .li {
+        font-size: 1.2rem;
+        margin: 20px 0;
+    }
+
+    @media (min-width: 315px) and (max-width: 480px) {
+        #software_development .software_heros {
+            width: 100%;
+            padding: 0 !important;
+        }
+
+        #software_development .software_heros .px-4 {
+            padding: 20px !important;
+        }
+
+        #software_development .software_heros h1 {
+            font-size: 1.5rem !important;
+            font-weight: 800;
+        }
+
+        #software_development .software_heros p {
+            font-size: 16px !important;
+            width: 100% !important;
+        }
+
+        #software_development_content .row {
+            margin: 30px 0 !important;
+        }
+
+        #software_development_content .images img {
+            width: 150px !important;
+            height: 100px !important;
+            padding: 3px;
+        }
+
+        .contact .row {
+            width: 100% !important;
+        }
+    }
+
+    @media (min-width: 540px) and (max-width: 720px) {
+
+
+        #software_development .software_heros h1 {
+            font-size: 1.7rem !important;
+            font-weight: 800;
+        }
+
+        #software_development .software_heros p {
+            font-size: 18px !important;
+            width: 100% !important;
+        }
+    }
+</style>
+<%- include("partials/preloaders") -%>
+<%- include("partials/header") -%>
+
+<body>
+
+    <div id="software_development">
+        <div class="software_heros d-flex justify-content-center align-items-center">
+            <div class="px-4">
+                <h1 class="text-white">SOFTWARE DEVELOPMENT CONSULTING</h1>
+                <p class="text-white w-75 fs-4">Seccon Security Company is a professional security firm that provides
+                    services such as specialised security issues, fire and life safety system, CCTV installation and
+                    general consultancy service.</p>
+            </div>
+        </div>
+        <div id="software_development_content">
+            <div class="row my-5 mx-5 p-0">
+                <div class="col-lg-8 p-0">
+                    <h1 class="text-lead fw-light">What does <br><span class="fw-bolder">Software Development
+                            <br></span>do?</h1>
+                    <p class="paragraph-lg">The main role of a software consultant is to recommend an optimal technical
+                        solution to help
+                        businesses solve problems and achieve their goals.
+
+                        However, the responsibilities of a software consultant aren’t limited to recommendations alone.
+                        They include:</p>
+                    <ul>
+                        <li class="li"><strong>Gathering business information and requirements. </strong>Consultant need
+                            to know
+                            everything about the business they assist. This includes business scope, industry, workflow,
+                            and other aspects.</li>
+                        <li class="li"><strong>Recommending a suitable implementation.</strong>Based on the gathering
+                            data, the
+                            consultant must select a solution that will best suit the company in terms of availability
+                            and resources.</li>
+                        <li class="li"><strong>Collaborating with developers and coordinating the development process.
+                            </strong>If
+                            the solution requires development from scratch, the software development consultant teams up
+                            with the development team to oversee the entire development process and transfer the correct
+                            vision of the final product to the developers. There are also cases when consulting
+                            companies have required talent and experience to provide IT service.
+                            this way a company may act as an IT service provider.</li>
+                        <li class="li"><strong>Testing solution for correct work. </strong>The developed solution must
+                            work as
+                            intended and must be smoothly integrated into the company business processes. Together with
+                            QA engineers, the consultant test the final product to deliver a bug-free solution.</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 p-0 my-auto">
+                    <div class="shape">
+
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <div class="images text-center">
+                            <img src="../imgs/softwareDev_img2.png" alt="">
+
+                            <img src="../imgs/softwareDev_img.png" alt="">
+                            <img src="../imgs/softwareDev_img.png" alt="">
+                        </div>
+                        <!-- <div class="images text-start">
+                            <img src="../imgs/SecurityImg_3.jpg.png" alt="">
+                            <img src="../imgs/SecurityImg_6.png" alt="">
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="contact bg-dark my-5">
+        <div class="row m-0 w-50 mx-auto">
+            <div class="col-lg-6">
+                <ul class="list-unstyled mx-auto text-start py-lg-5">
+                    <li class="text-white my-3 fs-5"><img src="/imgs/icons8-phone-50.png" class="me-4"
+                            style="width: 30px;" alt=""> + 234
+                        9016290149
+                    </li>
+                    <li class="text-white my-3 fs-5"><img src="/imgs/icons8-message-read-60.png" class="me-4"
+                            style="width: 30px;" alt="">
+                        info@seccon.com</li>
+                    <li class="text-white my-3 fs-5"><img src="/imgs/icons8-visit-50.png" class="me-4"
+                            style="width: 30px;" alt=""> Lagos Nigeria.
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <div class="mx-auto text-center py-lg-5">
+                    <h5 class="text-light">Thank you for visiting, If by all means you needed to contact us
+                        directly.</h5>
+                    <button class="rounded-0 mt-lg-4 btn btn-outline-light btn-lg">Get In Touch</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sponsors" class="py-4">
+        <h1 class="text-center">Local & International Authority and Sponsors</h1>
+        <div class="sponsors_container">
+            <div class="sponsors_track d-inline-flex border-1 border-dark">
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/isa.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/itf.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/wc.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/icest.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/cmc_logo_jpeg_blue.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/asis-1.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/cpp-certified-protection-professional.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/itf.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/wcichsp.png" alt="">
+                </div>
+                <div class="each p-3">
+                    <img draggable="false" src="../imgs/ic.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="nav w-25 d-sm-none">
+                <button class="prev">
+                    <i class="fa-solid fa-arrow-left-long"></i>
+                </button>
+                <button class="next"><i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="footer" class="mt-5">
+        <div class="footer-top w-100 h-75 m-0 py-lg-4 container-fluid row p-0 m-0">
+            <div class="col-lg-3 col-md-6 col-sm-6 p-lg-5 logo">
+                <img src="../imgs/Seccon_white_logo.png" class="w-75" alt="">
+                <p class="text-white mt-2">As it turns out that Seccon helps you manage your business, security,
+                    information
+                    data,
+                    software dev and
+                    other activities.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 p-lg-5 text-white links">
+                <h5 class="fw-bold position-relative pb-3">USEFUL LINKS</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <a href="" class="text-decoration-none text-light">Security Consulting</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="" class="text-decoration-none text-light">Business Consulting</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="" class="text-decoration-none text-light">Education & Training</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="" class="text-decoration-none text-light">Information Service</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="" class="text-decoration-none text-light">Entreprenuership</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="" class="text-decoration-none text-light">Software Development</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 p-lg-5 text-white contact">
+                <h5 class="fw-bold position-relative pb-3">CONTACT US</h5>
+                <p class="mt-3">
+                    No 9, Chief fatai aremu street, <br />
+                    Ajegunle Apapa, <br />Lagos, Nigeria.
+                </p>
+                <p><span class="fw-bold">Email:</span> info@onlineLibrary.com</p>
+                <p><i class="fas fa-phone me-2"></i> +2349016290149</p>
+                <p><i class="fab fa-whatsapp me-2"></i> +2349016290149</p>
+                <ul class="list-unstyled d-flex d-inline-row m-0">
+                    <li class=""><i class="fab fa-facebook fa-2x pe-3 pt-3"></i></li>
+                    <li class=""><i class="fab fa-instagram fa-2x p-3"></i></li>
+                    <li class=""><i class="fab fa-linkedin-in fa-2x p-3"></i></li>
+                    <li class=""><i class="fab fa-google fa-2x p-3"></i></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 p-lg-5 text-white newsletter">
+                <h5 class="fw-bold position-relative pb-3">OUR NEWSLETTER</h5>
+                <p class="text-white py-lg-3">
+                    Stay informed with what we have been unto.
+                </p>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="" aria-label=""
+                        aria-describedby="basic-addon2" />
+                    <span class="input-group-text bg-primary" id="basic-addon2"><i
+                            class="fas fa-location-arrow text-white"></i></span>
+                </div>
+            </div>
+        </div>
+        ,
+        <div class="container-fluid footer-bottom p-0 m-0">
+            <div class="row m-0 text-center">
+                <div class="col-lg-6 m-auto">
+                    <p class="mb-0 text-white">
+                        &copy; right 2022 <span class="fw-bold">Security Consultancy.</span> All
+                        Right Reserved
+                    </p>
+                    <p class="text-white text-capitalize">
+                        Designed by <span>Dev YOH</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../javascript//bootstrap.min.js"></script>
+    <script src="../javascript/index.js"></script>
+</body>
+
+</html>

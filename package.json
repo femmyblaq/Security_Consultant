@@ -1,0 +1,27 @@
+{
+  "name": "security_consultant",
+  "version": "1.0.0",
+  "description": "\"Security Consultant helps analyze and assesses security Business, Education, Entreprenuership for better management and support in the society.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/femmyblaq/Security_Consultant.git"
+  },
+  "author": "Dev HY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/femmyblaq/Security_Consultant/issues"
+  },
+  "homepage": "https://github.com/femmyblaq/Security_Consultant#readme",
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.80",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "request": "^2.88.2"
+  }
+}
